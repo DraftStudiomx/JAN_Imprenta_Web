@@ -327,13 +327,17 @@ section{position:relative}
 }
 .marquee:hover .marquee-track{animation-play-state:paused}
 .client-chip:hover{opacity:1;color:var(--navy)}
-/* Logos de clientes (imágenes) */
-.logos-track{align-items:center;gap:64px}
+/* Logos de clientes (imágenes) — cada logo en una caja uniforme */
+.logos-track{align-items:center;gap:40px}
+.logo-box{
+  flex:0 0 auto;width:150px;height:66px;
+  display:flex;align-items:center;justify-content:center;overflow:hidden;
+}
 .client-logo{
-  height:56px;width:auto;object-fit:contain;
+  max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;
   filter:grayscale(1);opacity:.6;transition:filter .25s,opacity .25s;
 }
-.client-logo:hover{filter:grayscale(0);opacity:1}
+.logo-box:hover .client-logo{filter:grayscale(0);opacity:1}
 
 /* ══════════════════════════════════════════════════════════
    7. SOBRE NOSOTROS
@@ -1296,12 +1300,28 @@ textarea{resize:vertical;min-height:110px}
      ══ EDITAR: agrega aquí los logos. Cada objeto: { src: ruta, alt: nombre }.
         Coloca las imágenes en una carpeta "logos/" junto a este index.html.
         Mientras no haya logos reales, se muestran los nombres como texto. ══ */
+  var LOGO_DIR = 'Logos%20Clientes/';
   var clientLogos = [
-    // { src: 'logos/logistica-r.png',  alt: 'Logística R' },
-    // { src: 'logos/rodamientos.png',  alt: 'Rodamientos' },
-    // { src: 'logos/trucking.png',     alt: 'Trucking' },
-    // { src: 'logos/edunovam.png',     alt: 'Instituto Edunovam' },
-    // { src: 'logos/inergia.png',      alt: 'Inergia' },
+    { src: LOGO_DIR + 'Inergia_Logo.png',        alt: 'Inergia' },
+    { src: LOGO_DIR + 'Rodamientos_Logo.jpg',    alt: 'Rodamientos', scale: 1.7 },
+    { src: LOGO_DIR + 'edunova_logo.png',        alt: 'Edunova' },
+    { src: LOGO_DIR + 'Beiersdorf_logo.png',     alt: 'Beiersdorf' },
+    { src: LOGO_DIR + 'Liverpool_Logo.png',      alt: 'Liverpool' },
+    { src: LOGO_DIR + 'biopappel_logo.svg',      alt: 'Bio Pappel' },
+    { src: LOGO_DIR + 'Frankische_logo.png',     alt: 'Fränkische' },
+    { src: LOGO_DIR + 'leggett-logo.svg',        alt: 'Leggett & Platt' },
+    { src: LOGO_DIR + 'Minebea_Logo.avif',       alt: 'Minebea' },
+    { src: LOGO_DIR + 'ppg-logo.svg',            alt: 'PPG' },
+    { src: LOGO_DIR + 'panini-logo.webp',        alt: 'Panini' },
+    { src: LOGO_DIR + 'RadioFormula_Logo.svg',   alt: 'Radio Fórmula' },
+    { src: LOGO_DIR + 'Logo_Hospital_Aranda.svg',alt: 'Hospital Aranda' },
+    { src: LOGO_DIR + 'DECA_logo.png',           alt: 'DECA' },
+    { src: LOGO_DIR + 'Munsa_Logo.png',          alt: 'Munsa' },
+    { src: LOGO_DIR + 'SSB_logo.png',            alt: 'SSB' },
+    { src: LOGO_DIR + 'TM_Logo.png',             alt: 'TM' },
+    { src: LOGO_DIR + '4G-web-logo.webp',        alt: '4G' },
+    { src: LOGO_DIR + 'Plateros-Logotipo.webp',  alt: 'Plateros' },
+    { src: LOGO_DIR + 'Extinguidores_Logo.jpg',  alt: 'Extinguidores' },
   ];
   // Respaldo en texto mientras no se cargan los logos (los 5 primeros son reales)
   var clientNames = [
@@ -1313,7 +1333,8 @@ textarea{resize:vertical;min-height:110px}
     var html = '';
     if(clientLogos.length){
       clientLogos.forEach(function(l){
-        html += '<img class="client-logo" src="'+l.src+'" alt="'+l.alt+'" loading="lazy">';
+        var st = l.scale ? ' style="transform:scale('+l.scale+')"' : '';
+        html += '<span class="logo-box"><img class="client-logo" src="'+l.src+'" alt="'+l.alt+'" loading="lazy"'+st+'></span>';
       });
     } else {
       clientNames.forEach(function(c){ html += '<span class="client-chip">'+c+'</span>'; });
