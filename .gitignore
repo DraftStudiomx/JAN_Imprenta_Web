@@ -1,2 +1,9 @@
 .claude/
 __pycache__/
+
+# Documentos internos (no forman parte del sitio publicado)
+*.pdf
+cotizacion-jan-diseno.html
+jan-diseno-web-v3.html
+jan-diseno-web-v3-backup.html
+HISTORIAS JAN .png
