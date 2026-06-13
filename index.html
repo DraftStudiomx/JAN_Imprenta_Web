@@ -1,412 +1,749 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<!-- ══════════════════════════════════════════════════════════════
+     JAN DISEÑO · Arte · Diseño · Publicidad — Sitio one-page v4
+     Cliente: JAN Diseño (Anahí Ordóñez) · León, Gto.
+     Entrega: archivo HTML estático autocontenido (sin CMS).
+     EDITAR: las secciones marcadas con  ══ EDITAR ══  son las que
+     el cliente puede modificar fácilmente (textos, teléfonos, links).
+     ══════════════════════════════════════════════════════════════ -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>JAN Diseño | Imprenta, Señalética y Diseño Gráfico · León, Guanajuato</title>
-<meta name="description" content="JAN Diseño — 14 años en impresión digital, señalética corporativa, rotulación vehicular y diseño gráfico en León, Guanajuato. Cotiza ahora: (477) 235-93-82.">
-<meta name="keywords" content="imprenta León Guanajuato, diseño gráfico León Gto, señalética corporativa León, rotulación vehicular León, impresión digital, JAN Diseño">
-<meta property="og:title" content="JAN Diseño | Imprenta y Diseño Gráfico · León, Gto.">
-<meta property="og:description" content="14 años creando marcas en León, Guanajuato. Señalética, impresión, rotulación y más.">
+<title>JAN Diseño | Señalética, Impresión y Diseño Gráfico · León, Guanajuato</title>
+<meta name="description" content="JAN Diseño — 14+ años en señalética corporativa, rotulación vehicular, impresión digital y diseño gráfico en León, Guanajuato. Más de 500 clientes. Cotiza hoy: (477) 235-93-82.">
+<meta name="keywords" content="señalética León Guanajuato, imprenta León Gto, rotulación vehicular León, impresión digital gran formato, diseño gráfico León, letreros LED, JAN Diseño">
+<meta name="author" content="JAN Diseño">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:title" content="JAN Diseño | Arte · Diseño · Publicidad · León, Gto.">
+<meta property="og:description" content="14+ años transformando marcas en León, Guanajuato. Señalética, impresión, rotulación, uniformes y más. +500 clientes.">
 <meta property="og:type" content="website">
-<link rel="canonical" href="https://jandiseno.com/">
+<meta property="og:url" content="https://jandiseno.com.mx/">
+<!-- EDITAR: reemplaza por la URL real de tu imagen de portada (1200x630px) -->
+<meta property="og:image" content="https://jandiseno.com.mx/og-image.jpg">
+<meta property="og:locale" content="es_MX">
+<meta property="og:site_name" content="JAN Diseño">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="JAN Diseño | Arte · Diseño · Publicidad · León, Gto.">
+<meta name="twitter:description" content="14+ años transformando marcas en León, Guanajuato. Señalética, impresión y diseño de alto impacto.">
+
+<link rel="canonical" href="https://jandiseno.com.mx/">
+
+<!-- Google Fonts: Bebas Neue (display) + Inter (UI/cuerpo) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"LocalBusiness","name":"JAN Diseño","description":"Empresa de diseño gráfico, publicidad e impresión en León, Guanajuato","address":{"@type":"PostalAddress","addressLocality":"León","addressRegion":"Guanajuato","addressCountry":"MX"},"telephone":"+52-477-485-0730","openingHours":"Mo-Fr 09:00-18:00","foundingDate":"2010"}
-</script>
-<style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;font-size:16px}
-body{font-family:'Inter',system-ui,sans-serif;background:#fff;color:#334155;-webkit-font-smoothing:antialiased;line-height:1.65;overflow-x:hidden}
 
+<!-- Favicon (usa el logo) -->
+<link rel="icon" type="image/png" href="LOGO JAN .png">
+
+<!-- ══ Schema.org · LocalBusiness (JSON-LD) ══ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "JAN Diseño",
+  "alternateName": "JAN Diseño — Arte, Diseño y Publicidad",
+  "description": "Empresa de señalética corporativa, rotulación vehicular, impresión digital, diseño gráfico y publicidad en León, Guanajuato. Más de 14 años de experiencia y 500+ clientes.",
+  "image": "https://jandiseno.com.mx/LOGO%20JAN%20.png",
+  "logo": "https://jandiseno.com.mx/LOGO%20JAN%20.png",
+  "url": "https://jandiseno.com.mx/",
+  "telephone": "+524772359382",
+  "email": "jandisenoventas@jandiseno.com",
+  "foundingDate": "2010",
+  "priceRange": "$$",
+  "currenciesAccepted": "MXN",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Blvd. Francisco González Bocanegra #1008, Col. León Moderno",
+    "addressLocality": "León",
+    "addressRegion": "Guanajuato",
+    "postalCode": "37480",
+    "addressCountry": "MX"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 21.1236,
+    "longitude": -101.6863
+  },
+  "areaServed": { "@type": "City", "name": "León, Guanajuato" },
+  "sameAs": [
+    "https://www.facebook.com/",
+    "https://www.instagram.com/"
+  ]
+}
+</script>
+
+<style>
+/* ══════════════════════════════════════════════════════════
+   1. TOKENS DE DISEÑO (variables de marca)
+   ══════════════════════════════════════════════════════════ */
 :root{
-  --white:#ffffff;--bg-page:#F8FAFC;--border:#e2e8f0;--border-hover:#cbd5e1;
-  --navy-deep:#07102a;--navy:#0a1840;--blue:#1a3c8f;--teal:#2dc4b0;--cyan:#1a9fe0;
-  --purple-1:#8B4FBF;--purple-2:#C77DFF;
-  --text-dark:#0f172a;--text-mid:#334155;--text-muted:#64748b;
-  --grad-brand:linear-gradient(135deg,#1a3c8f,#2dc4b0);
-  --grad-hero:linear-gradient(150deg,#07102a 0%,#0a1840 55%,#1a3c8f 100%);
-  --shadow-sm:0 1px 3px rgba(15,23,42,.08),0 1px 2px rgba(15,23,42,.04);
-  --shadow-md:0 4px 12px rgba(15,23,42,.1),0 2px 4px rgba(15,23,42,.06);
-  --shadow-lg:0 10px 30px rgba(15,23,42,.12),0 4px 8px rgba(15,23,42,.06);
-  --z-nav:40;--z-float:50;
+  /* Azules corporativos */
+  --navy-deep:#0D2444; --navy:#1B5FAA; --teal:#2DC4B0; --sky:#29ABE2;
+  /* Blancos y neutros */
+  --white:#FFFFFF; --off-white:#F8FAFC; --light-gray:#E2E8F0; --gray-hover:#CBD5E1;
+  /* Texto */
+  --text-dark:#0D2444; --text-mid:#334155; --text-muted:#64748b;
+  /* WhatsApp */
+  --wa-green:#25D366; --wa-dark:#128C5E;
+  /* Gradientes */
+  --grad-brand:linear-gradient(135deg,#0D2444,#2DC4B0);
+  --grad-hero:linear-gradient(150deg,#0D2444 0%,#1B5FAA 60%,#29ABE2 100%);
+  --grad-accent:linear-gradient(90deg,#2DC4B0,#29ABE2);
+  /* Sombras */
+  --shadow-sm:0 1px 3px rgba(13,36,68,.08),0 1px 2px rgba(13,36,68,.04);
+  --shadow-md:0 4px 12px rgba(13,36,68,.12),0 2px 4px rgba(13,36,68,.06);
+  --shadow-lg:0 10px 30px rgba(13,36,68,.15),0 4px 8px rgba(13,36,68,.06);
+  /* Tipografía */
+  --font-display:'Bebas Neue',Impact,sans-serif;
+  --font-ui:'Inter',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  /* Layout */
+  --container:1200px;
+  --radius:8px; --radius-lg:16px;
 }
 
-/* ── REVEAL ── */
-.reveal{opacity:0;transform:translateY(24px);transition:opacity 600ms cubic-bezier(.16,1,.3,1),transform 600ms cubic-bezier(.16,1,.3,1)}
+/* ══════════════════════════════════════════════════════════
+   2. RESET + BASE
+   ══════════════════════════════════════════════════════════ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:var(--font-ui);font-weight:400;font-size:16px;line-height:1.65;
+  color:var(--text-mid);background:var(--white);overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+}
+img{max-width:100%;display:block}
+a{text-decoration:none;color:inherit}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+ul{list-style:none}
+section{position:relative}
+
+.container{max-width:var(--container);margin:0 auto;padding:0 24px}
+.section{padding:96px 0}
+@media(max-width:768px){.section{padding:64px 0}}
+
+/* Tipografía display */
+.display{font-family:var(--font-display);font-weight:400;line-height:.92;letter-spacing:.01em}
+.h2{font-family:var(--font-display);font-size:clamp(2.6rem,5vw,4.2rem);line-height:.95;color:var(--text-dark)}
+.lead{font-size:1.05rem;color:var(--text-muted);max-width:60ch}
+
+/* Badges / eyebrows reutilizables */
+.divider-bar{width:48px;height:4px;background:var(--grad-brand);border-radius:99px;margin-bottom:20px}
+.badge{
+  display:inline-flex;align-items:center;gap:8px;font-size:.72rem;font-weight:700;
+  letter-spacing:.14em;text-transform:uppercase;padding:7px 14px;border-radius:99px;
+}
+.badge-navy{background:rgba(13,36,68,.08);color:var(--navy-deep);border:1px solid rgba(13,36,68,.18)}
+.badge-teal{background:rgba(45,196,176,.12);color:var(--teal);border:1px solid rgba(45,196,176,.3)}
+
+.section-head{text-align:center;max-width:720px;margin:0 auto 56px}
+.section-head .badge{margin-bottom:18px}
+.section-head .lead{margin:16px auto 0;text-align:center}
+
+/* ══════════════════════════════════════════════════════════
+   3. BOTONES
+   ══════════════════════════════════════════════════════════ */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  font-weight:600;font-size:.95rem;padding:14px 26px;border-radius:99px;
+  transition:transform .2s ease,box-shadow .2s ease,background .2s ease,color .2s ease;
+  white-space:nowrap;line-height:1;
+}
+.btn:active{transform:translateY(1px)}
+.btn-teal{background:var(--teal);color:var(--navy-deep)}
+.btn-teal:hover{background:#27b3a0;box-shadow:0 8px 22px rgba(45,196,176,.4);transform:translateY(-2px)}
+.btn-navy{background:var(--navy-deep);color:var(--white)}
+.btn-navy:hover{background:#13325c;box-shadow:var(--shadow-md);transform:translateY(-2px)}
+.btn-ghost-white{background:rgba(255,255,255,.06);color:var(--white);border:1.5px solid rgba(255,255,255,.35)}
+.btn-ghost-white:hover{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.6)}
+.btn-ghost-teal{background:transparent;color:var(--teal);border:1.5px solid rgba(45,196,176,.5)}
+.btn-ghost-teal:hover{background:rgba(45,196,176,.1);border-color:var(--teal)}
+.btn-ghost-navy{background:transparent;color:var(--navy-deep);border:1.5px solid var(--light-gray)}
+.btn-ghost-navy:hover{border-color:var(--navy);color:var(--navy)}
+.btn-sm{padding:10px 18px;font-size:.85rem}
+.btn-block{width:100%}
+
+/* ══════════════════════════════════════════════════════════
+   4. NAVBAR
+   ══════════════════════════════════════════════════════════ */
+.nav{
+  position:fixed;top:0;left:0;right:0;height:68px;z-index:40;
+  display:flex;align-items:center;
+  transition:background .3s ease,box-shadow .3s ease,border-color .3s ease;
+  background:transparent;border-bottom:1px solid transparent;
+}
+.nav.scrolled{background:var(--white);box-shadow:var(--shadow-sm);border-bottom-color:var(--light-gray)}
+.nav .container{display:flex;align-items:center;justify-content:space-between;width:100%}
+.nav-logo img{height:56px;width:auto;transition:filter .3s ease}
+/* Logo en navbar transparente (sobre hero oscuro) → versión blanca */
+.nav:not(.scrolled) .nav-logo img{filter:brightness(0) invert(1)}
+.nav-links{display:flex;align-items:center;gap:30px}
+.nav-links a{
+  font-size:.92rem;font-weight:500;color:var(--white);position:relative;
+  transition:color .2s ease;padding:4px 0;
+}
+.nav.scrolled .nav-links a{color:var(--text-mid)}
+.nav-links a::after{
+  content:"";position:absolute;left:0;bottom:-3px;width:0;height:2px;
+  background:var(--teal);transition:width .25s ease;
+}
+.nav-links a:hover::after,.nav-links a.active::after{width:100%}
+.nav-links a.active{color:var(--teal)}
+.nav.scrolled .nav-links a.active{color:var(--teal)}
+.nav-cta{display:flex;align-items:center;gap:14px}
+.nav .nav-cta .btn-navy{transition:transform .2s,box-shadow .2s,background .2s}
+.nav:not(.scrolled) .nav-cta .btn{background:var(--teal);color:var(--navy-deep)}
+
+/* Hamburger */
+.hamburger{display:none;flex-direction:column;gap:5px;padding:8px;z-index:60}
+.hamburger span{width:26px;height:2.5px;background:var(--white);border-radius:2px;transition:.3s}
+.nav.scrolled .hamburger span{background:var(--navy-deep)}
+.drawer-open .hamburger span{background:var(--navy-deep)}
+.drawer-open .hamburger span:nth-child(1){transform:translateY(7.5px) rotate(45deg)}
+.drawer-open .hamburger span:nth-child(2){opacity:0}
+.drawer-open .hamburger span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg)}
+
+/* Drawer móvil */
+.drawer{
+  position:fixed;inset:0;background:var(--white);z-index:50;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;
+  opacity:0;visibility:hidden;transition:opacity .3s ease,visibility .3s ease;
+}
+.drawer.open{opacity:1;visibility:visible}
+.drawer a{font-size:1.6rem;font-weight:600;color:var(--navy-deep);padding:12px 0}
+.drawer a:hover{color:var(--teal)}
+.drawer .btn{margin-top:20px}
+
+@media(max-width:768px){
+  .nav-links,.nav-cta .btn{display:none}
+  .hamburger{display:flex}
+}
+
+/* ══════════════════════════════════════════════════════════
+   5. HERO
+   ══════════════════════════════════════════════════════════ */
+.hero{
+  position:relative;min-height:100vh;display:flex;flex-direction:column;
+  justify-content:center;padding-top:120px;padding-bottom:40px;
+  background:var(--grad-hero);color:var(--white);overflow:hidden;
+}
+.hero::before{
+  content:"";position:absolute;inset:0;opacity:.6;pointer-events:none;
+  background-image:radial-gradient(rgba(255,255,255,.05) 1.5px,transparent 1.5px);
+  background-size:28px 28px;
+}
+.hero .container{position:relative;z-index:2;width:100%}
+.hero-split{display:grid;grid-template-columns:58% 42%;gap:48px;align-items:center}
+.hero-eyebrow{font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.4);font-weight:600;margin-bottom:18px}
+.hero-badge{
+  display:inline-flex;align-items:center;gap:8px;background:rgba(45,196,176,.15);
+  border:1px solid rgba(45,196,176,.4);color:#bff3ec;padding:7px 16px;border-radius:99px;
+  font-size:.8rem;font-weight:600;margin-bottom:24px;
+}
+.hero-badge .star{color:#ffd866}
+.hero h1{
+  font-family:var(--font-display);font-size:clamp(4.5rem,9vw,9rem);line-height:.88;
+  letter-spacing:.005em;margin-bottom:24px;
+}
+.hero h1 .l1{color:var(--teal)}
+.hero h1 .l2{color:var(--white)}
+.hero h1 .l3{background:linear-gradient(90deg,var(--teal),var(--sky));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.hero-p{font-size:1.1rem;color:rgba(255,255,255,.65);max-width:480px;margin-bottom:32px}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap}
+
+/* Showcase card */
+.showcase{
+  background:rgba(13,36,68,.75);border:1px solid rgba(45,196,176,.2);
+  border-left:4px solid var(--teal);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border-radius:var(--radius-lg);padding:30px;
+  box-shadow:var(--shadow-lg);animation:glowPulse 3s ease-in-out infinite;
+}
+@keyframes glowPulse{0%,100%{box-shadow:-6px 0 24px -8px rgba(45,196,176,.5),var(--shadow-lg)}50%{box-shadow:-10px 0 40px -6px rgba(45,196,176,.85),var(--shadow-lg)}}
+.showcase-title{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);font-weight:700;margin-bottom:20px}
+.showcase-item{display:flex;align-items:center;gap:14px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.showcase-item:last-of-type{border-bottom:none}
+.showcase-item svg{width:24px;height:24px;flex-shrink:0;stroke:var(--white);opacity:.9}
+.showcase-item span{font-size:.98rem;font-weight:500;color:var(--white)}
+.showcase .btn{margin-top:18px}
+
+/* Stats bar */
+.hero-stats{
+  margin-top:56px;display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
+  background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);
+  border-radius:var(--radius-lg);overflow:hidden;backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+}
+.hero-stat{padding:26px 16px;text-align:center;background:rgba(255,255,255,.02)}
+.hero-stat .num{font-family:var(--font-display);font-size:2.8rem;color:var(--teal);line-height:1}
+.hero-stat .lbl{font-size:.78rem;letter-spacing:.06em;color:rgba(255,255,255,.45);margin-top:6px;text-transform:uppercase}
+
+/* Scroll indicator */
+.scroll-ind{
+  position:absolute;bottom:22px;left:50%;transform:translateX(-50%);z-index:2;
+  color:rgba(255,255,255,.5);animation:bounce 2s infinite;
+}
+.scroll-ind svg{width:26px;height:26px}
+@keyframes bounce{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(8px)}}
+
+@media(max-width:900px){
+  .hero-split{grid-template-columns:1fr;gap:40px}
+  .showcase{display:none}
+}
+@media(max-width:560px){
+  .hero-stats{grid-template-columns:repeat(2,1fr)}
+  .hero{padding-top:100px}
+}
+
+/* ══════════════════════════════════════════════════════════
+   6. CLIENTS STRIP / MARQUEE
+   ══════════════════════════════════════════════════════════ */
+.clients-strip{background:var(--off-white);padding:48px 0}
+.strip-head{display:flex;align-items:center;gap:20px;justify-content:center;margin-bottom:32px}
+.strip-head hr{flex:1;max-width:120px;border:none;border-top:1px solid var(--light-gray)}
+.strip-head span{font-size:.88rem;color:var(--text-muted);font-weight:500;white-space:nowrap}
+.marquee{
+  position:relative;overflow:hidden;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);
+  mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);
+}
+.marquee-track{display:flex;gap:48px;width:max-content;will-change:transform}
+.marquee-1 .marquee-track{animation:scrollLeft 60s linear infinite}
+.marquee-2 .marquee-track{animation:scrollLeft 75s linear infinite reverse}
+.marquee-2{margin-top:20px}
+@keyframes scrollLeft{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.client-chip{
+  font-family:var(--font-display);font-size:1.5rem;letter-spacing:.04em;
+  color:var(--navy-deep);opacity:.45;white-space:nowrap;transition:opacity .2s,color .2s;
+}
+.marquee:hover .marquee-track{animation-play-state:paused}
+.client-chip:hover{opacity:1;color:var(--navy)}
+/* Logos de clientes (imágenes) */
+.logos-track{align-items:center;gap:64px}
+.client-logo{
+  height:56px;width:auto;object-fit:contain;
+  filter:grayscale(1);opacity:.6;transition:filter .25s,opacity .25s;
+}
+.client-logo:hover{filter:grayscale(0);opacity:1}
+
+/* ══════════════════════════════════════════════════════════
+   7. SOBRE NOSOTROS
+   ══════════════════════════════════════════════════════════ */
+.about{background:var(--white)}
+.about-grid{display:grid;grid-template-columns:55% 45%;gap:56px;align-items:center}
+.about-text .badge{margin-bottom:18px}
+.about-text h2{margin-bottom:20px}
+.about-text p{margin-bottom:16px;color:var(--text-mid)}
+.values{margin:28px 0 4px;display:flex;flex-direction:column;gap:16px}
+.value{display:flex;gap:14px;align-items:flex-start}
+.value-icon{
+  width:38px;height:38px;flex-shrink:0;border-radius:9px;background:rgba(45,196,176,.1);
+  display:flex;align-items:center;justify-content:center;
+}
+.value-icon svg{width:20px;height:20px;stroke:var(--teal)}
+.value b{color:var(--navy-deep);font-weight:700;display:block;margin-bottom:2px}
+.value span{font-size:.92rem;color:var(--text-muted)}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.chip{
+  font-size:.82rem;font-weight:600;color:var(--navy);background:rgba(45,196,176,.08);
+  border:1px solid rgba(45,196,176,.2);padding:8px 14px;border-radius:99px;
+}
+
+/* Counter card */
+.counter-card{
+  background:var(--navy-deep);border-radius:var(--radius-lg);box-shadow:var(--shadow-lg);
+  overflow:hidden;padding:8px 36px;
+}
+.counter-row{padding:30px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.counter-row:last-child{border-bottom:none}
+.counter-row .num{font-family:var(--font-display);font-size:4rem;line-height:1;color:var(--teal)}
+.counter-row .title{color:var(--white);font-weight:700;margin-top:4px}
+.counter-row .sub{color:rgba(255,255,255,.6);font-size:.9rem;margin-top:2px}
+
+@media(max-width:900px){.about-grid{grid-template-columns:1fr;gap:40px}}
+
+/* ══════════════════════════════════════════════════════════
+   8. SERVICIOS
+   ══════════════════════════════════════════════════════════ */
+.services{background:var(--off-white)}
+.filters{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:40px}
+.filter-btn{
+  font-size:.88rem;font-weight:600;padding:10px 22px;border-radius:99px;
+  background:var(--white);border:1px solid var(--light-gray);color:var(--text-mid);
+  transition:all .2s ease;
+}
+.filter-btn:hover{border-color:var(--gray-hover)}
+.filter-btn.active{background:var(--navy-deep);color:var(--white);border-color:var(--navy-deep)}
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.svc-card{
+  position:relative;background:var(--white);border:1px solid var(--light-gray);
+  border-radius:var(--radius-lg);padding:30px 26px 28px;overflow:hidden;
+  transition:transform .25s ease,box-shadow .25s ease,opacity .25s ease,border-color .25s ease;
+}
+.svc-card::after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:3px;
+  background:var(--grad-brand);transform:scaleX(0);transform-origin:left;transition:transform .3s ease;
+}
+.svc-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
+.svc-card:hover::after{transform:scaleX(1)}
+.svc-card.dimmed{opacity:.15!important;pointer-events:none;filter:grayscale(1)}
+.svc-card.hidden{display:none!important}
+.svc-num{
+  position:absolute;top:6px;right:18px;font-family:var(--font-display);
+  font-size:5rem;color:var(--navy-deep);opacity:.06;line-height:1;pointer-events:none;
+}
+.svc-icon{width:42px;height:42px;margin-bottom:18px}
+.svc-icon svg{width:42px;height:42px;stroke:var(--navy);stroke-width:1.6;fill:none}
+.svc-card h3{font-size:1.12rem;color:var(--navy-deep);font-weight:700;margin-bottom:8px}
+.svc-card p{font-size:.9rem;color:var(--text-muted);margin-bottom:14px;line-height:1.55}
+.svc-tag{
+  display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  padding:5px 11px;border-radius:99px;background:rgba(45,196,176,.1);color:var(--teal);
+}
+/* Card CTA "no encuentras tu servicio" */
+.svc-card-cta{
+  background:var(--grad-brand);border:none;color:var(--white);
+  display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:6px;
+}
+.svc-card-cta::after{display:none}
+.svc-card-cta .svc-icon svg{stroke:var(--white)}
+.svc-card-cta h3{color:var(--white)}
+.svc-card-cta p{color:rgba(255,255,255,.8)}
+.svc-card-cta .btn{margin-top:6px}
+@media(max-width:900px){.services-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.services-grid{grid-template-columns:1fr}}
+
+/* ══════════════════════════════════════════════════════════
+   9. TÉCNICAS (dark section)
+   ══════════════════════════════════════════════════════════ */
+.techniques{background:var(--navy-deep);color:var(--white);overflow:hidden}
+.techniques::before{
+  content:"";position:absolute;inset:0;opacity:1;pointer-events:none;
+  background-image:radial-gradient(rgba(255,255,255,.03) 1px,transparent 1px);background-size:24px 24px;
+}
+.techniques .container{position:relative;z-index:2}
+.techniques .section-head .h2,.techniques .h2{color:var(--white)}
+.tech-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 56px}
+.tech-item{position:relative;padding:24px 0 24px 4px}
+.tech-num{position:absolute;top:8px;right:0;font-family:var(--font-display);font-size:4rem;color:rgba(255,255,255,.04);line-height:1}
+.tech-line{width:32px;height:2px;background:var(--grad-accent);margin-bottom:14px}
+.tech-item h3{font-size:1.15rem;font-weight:700;color:var(--white);margin-bottom:6px}
+.tech-item p{font-size:.88rem;color:rgba(255,255,255,.55);margin-bottom:16px}
+.tech-bar{height:2px;width:100%;background:rgba(255,255,255,.1);border-radius:99px;overflow:hidden}
+.tech-bar i{display:block;height:100%;width:0;background:var(--grad-accent);transition:width 1.4s cubic-bezier(.22,1,.36,1)}
+.tech-cta{display:flex;align-items:center;justify-content:center;padding:24px 0}
+@media(max-width:768px){.tech-grid{grid-template-columns:1fr;gap:0}}
+
+/* ══════════════════════════════════════════════════════════
+   10. POR QUÉ ELEGIRNOS
+   ══════════════════════════════════════════════════════════ */
+.why{background:var(--white)}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.why-block{
+  border-left:3px solid var(--teal);background:var(--off-white);border-radius:var(--radius);
+  padding:26px 24px;transition:transform .2s,box-shadow .2s;
+}
+.why-block:hover{transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+.why-icon{width:40px;height:40px;border-radius:9px;background:rgba(45,196,176,.1);display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+.why-icon svg{width:22px;height:22px;stroke:var(--teal);fill:none;stroke-width:1.7}
+.why-block h3{font-size:1.05rem;color:var(--navy-deep);font-weight:700;margin-bottom:6px}
+.why-block p{font-size:.9rem;color:var(--text-muted)}
+@media(max-width:900px){.why-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.why-grid{grid-template-columns:1fr}}
+
+/* ══════════════════════════════════════════════════════════
+   11. PROCESO
+   ══════════════════════════════════════════════════════════ */
+.process{background:var(--off-white)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;position:relative}
+.steps::before{
+  content:"";position:absolute;top:36px;left:12%;right:12%;height:3px;
+  background:var(--light-gray);z-index:0;
+}
+.steps .progress-line{
+  content:"";position:absolute;top:36px;left:12%;height:3px;width:0;
+  background:var(--grad-accent);z-index:1;transition:width 1.6s cubic-bezier(.22,1,.36,1);
+}
+.step{text-align:center;position:relative;z-index:2}
+.step-circle{
+  width:72px;height:72px;border-radius:50%;border:3px solid var(--navy);background:var(--white);
+  display:flex;align-items:center;justify-content:center;margin:0 auto 16px;
+  font-family:var(--font-display);font-size:2rem;color:var(--navy-deep);
+}
+.step h3{font-size:1.05rem;color:var(--navy-deep);font-weight:700;margin-bottom:6px}
+.step p{font-size:.88rem;color:var(--text-muted);margin-bottom:12px}
+.step .time{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:5px 12px;border-radius:99px;background:rgba(45,196,176,.1);color:var(--teal)}
+@media(max-width:768px){.steps{grid-template-columns:1fr;gap:32px}.steps::before,.steps .progress-line{display:none}}
+
+/* ══════════════════════════════════════════════════════════
+   12. CLIENTES (marquee doble)
+   ══════════════════════════════════════════════════════════ */
+.clients-full{background:var(--white)}
+.clients-full .cta-center{text-align:center;margin-top:44px}
+
+/* ══════════════════════════════════════════════════════════
+   13. CONTACTO
+   ══════════════════════════════════════════════════════════ */
+.contact{background:var(--off-white)}
+.contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:start}
+.contact-form-card{background:var(--white);border:1px solid var(--light-gray);box-shadow:var(--shadow-md);border-radius:var(--radius-lg);padding:36px}
+.mini-wa{
+  background:rgba(45,196,176,.08);border:1px solid rgba(45,196,176,.25);border-radius:var(--radius);
+  padding:16px 18px;margin-bottom:26px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;
+}
+.mini-wa b{color:var(--navy-deep);font-size:.95rem}
+.mini-wa span{color:var(--text-muted);font-size:.82rem;display:block}
+.form-row{margin-bottom:16px}
+.form-grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+label{display:block;font-size:.82rem;font-weight:600;color:var(--navy-deep);margin-bottom:6px}
+label .req{color:var(--teal)}
+input,select,textarea{
+  width:100%;font-family:inherit;font-size:.95rem;color:var(--text-dark);
+  padding:12px 14px;border:1px solid var(--light-gray);border-radius:var(--radius);
+  background:var(--white);transition:border-color .2s,box-shadow .2s;
+}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--teal);box-shadow:0 0 0 3px rgba(45,196,176,.15)}
+textarea{resize:vertical;min-height:110px}
+.form-note{font-size:.82rem;color:var(--text-muted);margin-top:14px;text-align:center}
+.form-note a{color:var(--navy);font-weight:600}
+
+/* Info cards */
+.contact-info{display:flex;flex-direction:column;gap:14px}
+.info-card{
+  background:var(--white);border:1px solid var(--light-gray);border-radius:var(--radius);
+  padding:18px 20px;display:flex;gap:14px;align-items:flex-start;
+}
+.info-card .ic{width:40px;height:40px;flex-shrink:0;border-radius:9px;background:rgba(27,95,170,.08);display:flex;align-items:center;justify-content:center}
+.info-card .ic svg{width:20px;height:20px;stroke:var(--navy);fill:none;stroke-width:1.7}
+.info-card b{display:block;color:var(--navy-deep);font-size:.92rem;margin-bottom:2px}
+.info-card span,.info-card a{color:var(--text-muted);font-size:.9rem}
+.info-card a:hover{color:var(--navy)}
+.info-wa{background:var(--wa-green);border-color:var(--wa-green)}
+.info-wa .ic{background:rgba(255,255,255,.2)}
+.info-wa .ic svg{stroke:var(--white)}
+.info-wa b,.info-wa span,.info-wa a{color:var(--white)!important}
+.map-embed{margin-top:14px;border-radius:12px;overflow:hidden;border:1px solid var(--light-gray);line-height:0}
+.map-embed iframe{width:100%;height:240px;border:0}
+@media(max-width:900px){.contact-grid{grid-template-columns:1fr}}
+@media(max-width:480px){.form-grid2{grid-template-columns:1fr}.contact-form-card{padding:26px}}
+
+/* ══════════════════════════════════════════════════════════
+   14. FOOTER
+   ══════════════════════════════════════════════════════════ */
+.footer{background:var(--navy-deep);color:rgba(255,255,255,.7);padding:64px 0 0}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1.2fr;gap:48px;padding-bottom:48px}
+.footer-logo img{height:46px;filter:brightness(0) invert(1);margin-bottom:12px}
+.footer-tagline{font-family:var(--font-display);letter-spacing:.1em;color:var(--teal);font-size:1.1rem;margin-bottom:14px}
+.footer p{font-size:.9rem;line-height:1.6;color:rgba(255,255,255,.6);max-width:34ch}
+.footer h4{color:var(--white);font-size:.95rem;font-weight:700;margin-bottom:18px;letter-spacing:.02em}
+.footer-col a,.footer-col li{display:block;font-size:.9rem;color:rgba(255,255,255,.65);margin-bottom:10px;transition:color .2s}
+.footer-col a:hover{color:var(--teal)}
+.socials{display:flex;gap:12px;margin-top:18px}
+.socials a{width:38px;height:38px;border-radius:9px;background:rgba(255,255,255,.07);display:flex;align-items:center;justify-content:center;transition:background .2s,transform .2s}
+.socials a:hover{transform:translateY(-2px)}
+.socials a svg{width:18px;height:18px;fill:#fff}
+.socials a.fb:hover{background:#1877F2}
+.socials a.ig:hover{background:#E1306C}
+.socials a.wa:hover{background:#25D366}
+.footer-contact-row{display:flex;gap:10px;align-items:flex-start;margin-bottom:12px;font-size:.9rem}
+.footer-contact-row svg{width:18px;height:18px;stroke:var(--teal);fill:none;stroke-width:1.7;flex-shrink:0;margin-top:2px}
+.footer .btn{margin-top:8px}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding:22px 0;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.footer-bottom p{font-size:.82rem;color:rgba(255,255,255,.45)}
+@media(max-width:768px){.footer-grid{grid-template-columns:1fr;gap:36px}.footer-bottom{flex-direction:column;text-align:center}}
+
+/* ══════════════════════════════════════════════════════════
+   15. FLOTANTES
+   ══════════════════════════════════════════════════════════ */
+.wa-float{
+  position:fixed;bottom:24px;right:24px;z-index:45;display:flex;align-items:center;gap:10px;
+  background:var(--wa-green);color:#fff;padding:14px 20px;border-radius:50px;font-weight:600;font-size:.95rem;
+  box-shadow:0 8px 24px rgba(37,211,102,.45);animation:waPulse 2.5s infinite;transition:transform .2s;
+}
+.wa-float:hover{transform:scale(1.05)}
+.wa-float svg{width:24px;height:24px;fill:#fff}
+@keyframes waPulse{0%{box-shadow:0 8px 24px rgba(37,211,102,.45),0 0 0 0 rgba(37,211,102,.5)}70%{box-shadow:0 8px 24px rgba(37,211,102,.45),0 0 0 14px rgba(37,211,102,0)}100%{box-shadow:0 8px 24px rgba(37,211,102,.45),0 0 0 0 rgba(37,211,102,0)}}
+.to-top{
+  position:fixed;bottom:88px;right:24px;z-index:45;width:44px;height:44px;border-radius:50%;
+  background:var(--navy-deep);color:#fff;display:flex;align-items:center;justify-content:center;
+  box-shadow:var(--shadow-md);opacity:0;visibility:hidden;transform:translateY(10px);transition:all .3s;
+}
+.to-top.show{opacity:1;visibility:visible;transform:translateY(0)}
+.to-top:hover{background:var(--navy)}
+.to-top svg{width:20px;height:20px;stroke:#fff;fill:none;stroke-width:2}
+@media(max-width:480px){.wa-float span{display:none}.wa-float{padding:14px;border-radius:50%}}
+
+/* Cursor dot (desktop) */
+.cursor-dot{position:fixed;top:0;left:0;width:8px;height:8px;border-radius:50%;background:var(--teal);pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:transform .12s ease;mix-blend-mode:difference}
+@media(max-width:1024px){.cursor-dot{display:none}}
+
+/* ══════════════════════════════════════════════════════════
+   16. SCROLL REVEAL
+   ══════════════════════════════════════════════════════════ */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .7s cubic-bezier(.22,1,.36,1),transform .7s cubic-bezier(.22,1,.36,1)}
 .reveal.visible{opacity:1;transform:none}
 
-/* ── BADGE ── */
-.badge{display:inline-flex;align-items:center;gap:6px;padding:4px 12px;border-radius:9999px;font-size:.75rem;font-weight:600;letter-spacing:.04em}
-.badge-teal{background:rgba(45,196,176,.1);color:#2dc4b0;border:1px solid rgba(45,196,176,.3)}
-.badge-blue{background:rgba(26,60,143,.08);color:#1a3c8f;border:1px solid rgba(26,60,143,.2)}
-
-/* ── BUTTONS ── */
-.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;border-radius:8px;font-weight:700;font-size:.9rem;letter-spacing:.02em;cursor:pointer;border:none;transition:background 150ms,transform 150ms,box-shadow 150ms;text-decoration:none;font-family:'Inter',sans-serif}
-.btn-primary{background:#1a3c8f;color:#fff}
-.btn-primary:hover{background:#0f2660;transform:translateY(-1px);box-shadow:0 4px 12px rgba(26,60,143,.3)}
-.btn-teal{background:#2dc4b0;color:#07102a}
-.btn-teal:hover{background:#22a899;transform:translateY(-1px);box-shadow:0 4px 12px rgba(45,196,176,.35)}
-.btn-ghost-white{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.4)}
-.btn-ghost-white:hover{border-color:#fff;background:rgba(255,255,255,.08)}
-.btn-ghost{background:transparent;color:var(--text-dark);border:1.5px solid var(--border)}
-.btn-ghost:hover{border-color:var(--blue);color:var(--blue)}
-.btn-sm{padding:8px 20px;font-size:.85rem}
-
-/* ── DIVIDER ── */
-.divider-bar{width:48px;height:4px;border-radius:2px;background:var(--grad-brand);margin-bottom:16px}
-
-/* ── SECTION LAYOUT ── */
-.section-wrap{max-width:1200px;margin:0 auto;padding:0 24px}
-.section-header{text-align:center;margin-bottom:56px}
-.section-header .divider-bar{margin:0 auto 16px}
-.section-h2{font-family:'Bebas Neue',sans-serif;font-size:clamp(2rem,4vw,3rem);color:var(--navy);line-height:1.1;margin-bottom:12px}
-.section-sub{color:var(--text-muted);font-size:1rem;max-width:520px;margin:0 auto}
-
-/* ── CARD ── */
-.card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:24px;box-shadow:var(--shadow-sm);transition:box-shadow 200ms ease,transform 200ms ease,border-color 200ms ease;cursor:pointer}
-.card:hover{box-shadow:var(--shadow-md);transform:translateY(-2px);border-color:var(--border-hover)}
-
-/* ════════════════ NAVBAR ════════════════ */
-#navbar{position:fixed;top:0;left:0;right:0;z-index:var(--z-nav);background:#fff;border-bottom:1px solid transparent;transition:border-color 250ms,box-shadow 250ms;height:68px;display:flex;align-items:center}
-#navbar.scrolled{border-bottom-color:var(--border);box-shadow:var(--shadow-sm)}
-.nav-inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;width:100%}
-.nav-logo img{height:68px;object-fit:contain;background:transparent;display:block}
-.nav-links{display:flex;align-items:center;gap:32px;list-style:none}
-.nav-links a{text-decoration:none;color:var(--text-mid);font-size:.875rem;font-weight:500;transition:color 150ms}
-.nav-links a:hover,.nav-links a.active{color:var(--blue)}
-.nav-right{display:flex;align-items:center;gap:16px}
-.nav-hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;background:none;border:none}
-.nav-hamburger span{display:block;width:22px;height:2px;background:var(--text-dark);border-radius:2px;transition:transform 300ms,opacity 300ms}
-.mobile-menu{display:none;position:fixed;top:68px;left:0;right:0;bottom:0;background:#fff;z-index:calc(var(--z-nav) - 1);padding:32px 24px;flex-direction:column;gap:8px;border-top:1px solid var(--border)}
-.mobile-menu.open{display:flex}
-.mobile-menu a{text-decoration:none;color:var(--text-dark);font-size:1.1rem;font-weight:600;padding:14px 0;border-bottom:1px solid var(--border);transition:color 150ms}
-.mobile-menu a:hover{color:var(--blue)}
-.mobile-menu .btn{margin-top:16px;justify-content:center}
-
-/* ════════════════ HERO ════════════════ */
-#hero{min-height:100vh;background:var(--grad-hero);position:relative;display:flex;align-items:center;padding-top:68px;overflow:hidden}
-#hero-canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
-.hero-inner{max-width:1100px;margin:0 auto;padding:80px 24px 100px;position:relative;z-index:2;text-align:center}
-.hero-eyebrow{font-size:.7rem;font-weight:500;letter-spacing:.25em;color:rgba(255,255,255,.45);text-transform:uppercase;margin-bottom:20px}
-.hero-h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(3.5rem,9vw,8rem);line-height:1;margin-bottom:24px}
-.hero-h1 .line-teal{color:#2dc4b0;display:block}
-.hero-h1 .line-white{color:#fff;display:block}
-.hero-h1 .line-grad{background:linear-gradient(90deg,#2dc4b0,#1a9fe0);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;display:block}
-.hero-desc{color:rgba(255,255,255,.65);font-size:1.05rem;max-width:480px;margin:0 auto 36px;line-height:1.7}
-.hero-btns{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:64px}
-.hero-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.1);border-radius:16px;overflow:hidden;backdrop-filter:blur(20px);max-width:700px;margin:0 auto}
-.stat-item{padding:24px 16px;text-align:center;background:rgba(255,255,255,.04)}
-.stat-num{font-family:'Bebas Neue',sans-serif;font-size:2.2rem;color:#2dc4b0;line-height:1;display:block}
-.stat-label{font-size:.72rem;color:rgba(255,255,255,.45);font-weight:500;letter-spacing:.06em;margin-top:4px;display:block}
-.scroll-ind{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;opacity:.5}
-.scroll-ind span{font-size:.65rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.6)}
-.scroll-arrow{width:20px;height:20px;border-right:2px solid rgba(45,196,176,.7);border-bottom:2px solid rgba(45,196,176,.7);transform:rotate(45deg);animation:arrowBounce 2.5s ease-in-out infinite}
-@keyframes arrowBounce{0%,100%{transform:rotate(45deg) translateY(0)}50%{transform:rotate(45deg) translateY(4px)}}
-
-/* ════════════════ SOBRE NOSOTROS ════════════════ */
-#nosotros{padding:96px 0;background:#fff}
-.nosotros-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
-.nosotros-text p{color:var(--text-mid);margin-bottom:20px;max-width:52ch;line-height:1.75}
-.valores-list{list-style:none;margin-top:28px;display:flex;flex-direction:column;gap:16px}
-.valor-item{display:flex;align-items:flex-start;gap:14px}
-.valor-icon{width:36px;height:36px;border-radius:8px;background:rgba(45,196,176,.1);display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.valor-icon svg{width:18px;height:18px;stroke:#2dc4b0;fill:none;stroke-width:2}
-.valor-title{font-weight:700;font-size:.95rem;color:var(--text-dark)}
-.valor-desc{font-size:.85rem;color:var(--text-muted);margin-top:2px}
-.counters-card{border-radius:16px;border:1px solid var(--border);background:#fff;box-shadow:var(--shadow-lg);overflow:hidden}
-.counter-row{padding:28px 32px;display:flex;align-items:center;gap:20px}
-.counter-row+.counter-row{border-top:1px solid var(--border)}
-.counter-num{font-family:'Bebas Neue',sans-serif;font-size:3.5rem;color:var(--blue);line-height:1;min-width:90px}
-.counter-label{font-size:.9rem;color:var(--text-muted);font-weight:500;line-height:1.4}
-.counter-label strong{display:block;color:var(--text-dark);font-size:1.05rem;margin-bottom:2px}
-
-/* ════════════════ SERVICIOS ════════════════ */
-#servicios{padding:96px 0;background:var(--bg-page)}
-.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.svc-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:28px 24px 24px;box-shadow:var(--shadow-sm);transition:box-shadow 200ms,transform 200ms,border-color 200ms;cursor:pointer;position:relative;overflow:hidden}
-.svc-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--grad-brand);opacity:0;transition:opacity 200ms}
-.svc-card:hover{box-shadow:var(--shadow-md);transform:translateY(-2px);border-color:var(--border-hover)}
-.svc-card:hover::after{opacity:1}
-.svc-num{font-family:'Bebas Neue',sans-serif;font-size:2.2rem;color:rgba(26,60,143,.1);line-height:1;margin-bottom:12px}
-.svc-icon{width:40px;height:40px;border-radius:10px;background:rgba(26,60,143,.07);display:flex;align-items:center;justify-content:center;margin-bottom:14px}
-.svc-icon svg{width:22px;height:22px;stroke:#1a3c8f;fill:none;stroke-width:1.5}
-.svc-title{font-weight:700;font-size:.95rem;color:var(--text-dark);margin-bottom:6px}
-.svc-desc{font-size:.83rem;color:var(--text-muted);line-height:1.5}
-.svc-tag{display:inline-block;margin-top:14px;padding:3px 10px;border-radius:9999px;font-size:.7rem;font-weight:600;background:rgba(26,60,143,.07);color:var(--blue)}
-
-/* ════════════════ TÉCNICAS ════════════════ */
-#tecnicas{padding:96px 0;background:#fff;position:relative;overflow:hidden}
-.tecnicas-bg{position:absolute;inset:0;background-image:radial-gradient(circle,rgba(10,24,64,.05) 1px,transparent 1px);background-size:24px 24px;pointer-events:none}
-.tecnicas-grid{display:grid;grid-template-columns:1fr 1fr;gap:0}
-.tecnica-item{padding:32px 40px;border-bottom:1px solid var(--border);position:relative}
-.tecnica-item:nth-child(odd){border-right:1px solid var(--border)}
-.tecnica-item:nth-last-child(-n+2){border-bottom:none}
-.tecnica-dec{font-family:'Bebas Neue',sans-serif;font-size:7rem;color:var(--navy);opacity:.06;position:absolute;top:-10px;right:24px;line-height:1;pointer-events:none;user-select:none}
-.tecnica-name{font-weight:800;font-size:1.05rem;color:var(--text-dark);margin-bottom:6px;position:relative}
-.tecnica-desc{font-size:.875rem;color:var(--text-muted);max-width:38ch;position:relative}
-.tecnica-line{width:32px;height:2px;border-radius:1px;background:var(--grad-brand);margin-bottom:10px;position:relative}
-
-/* ════════════════ CLIENTES ════════════════ */
-#clientes{padding:56px 0 48px;background:var(--bg-page)}
-.marquee-wrap{overflow:hidden;-webkit-mask:linear-gradient(90deg,transparent,black 8%,black 92%,transparent);mask:linear-gradient(90deg,transparent,black 8%,black 92%,transparent);margin:0 -24px}
-.marquee-row{display:flex;gap:14px}
-.mq-track{display:flex;gap:14px;width:max-content}
-.mq1{animation:scrollLeft 60s linear infinite}
-@keyframes scrollLeft{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-.client-card{width:164px;height:72px;flex-shrink:0;background:#fff;border:1px solid var(--border);border-radius:10px;display:flex;align-items:center;justify-content:center;gap:10px;padding:0 16px;box-shadow:var(--shadow-sm)}
-.client-init{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;color:var(--blue);opacity:.35;flex-shrink:0}
-.client-name{font-size:.75rem;font-weight:600;color:var(--text-mid);line-height:1.3}
-.clientes-cta{text-align:center;margin-top:48px}
-
-/* ════════════════ PROCESO ════════════════ */
-#proceso{padding:96px 0;background:#fff}
-.proceso-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative;max-width:900px;margin:0 auto}
-.proceso-steps::before{content:'';position:absolute;top:36px;left:calc(12.5%);right:calc(12.5%);height:4px;background:var(--grad-brand);border-radius:2px;z-index:0}
-.paso{display:flex;flex-direction:column;align-items:center;text-align:center;padding:0 16px;position:relative;z-index:1}
-.paso-num{width:72px;height:72px;border-radius:50%;border:3px solid var(--blue);background:#fff;display:flex;align-items:center;justify-content:center;margin-bottom:20px;position:relative;box-shadow:var(--shadow-sm)}
-.paso-num-txt{font-family:'Bebas Neue',sans-serif;font-size:1.8rem;color:var(--blue)}
-.paso-title{font-weight:700;font-size:.95rem;color:var(--text-dark);margin-bottom:8px}
-.paso-desc{font-size:.82rem;color:var(--text-muted);line-height:1.5}
-
-/* ════════════════ CONTACTO ════════════════ */
-#contacto{padding:96px 0;background:var(--bg-page)}
-.contacto-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:start}
-.form-card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:40px;box-shadow:var(--shadow-md)}
-.form-card h3{font-weight:800;font-size:1.4rem;color:var(--navy);margin-bottom:6px}
-.form-card .sub{font-size:.875rem;color:var(--text-muted);margin-bottom:28px}
-.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.form-group{margin-bottom:16px}
-.form-group label{display:block;font-size:.82rem;font-weight:600;color:var(--text-dark);margin-bottom:6px}
-.form-group input,.form-group select,.form-group textarea{width:100%;border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:.9rem;color:var(--text-dark);font-family:'Inter',sans-serif;background:#fff;transition:border-color 150ms,box-shadow 150ms;outline:none}
-.form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(26,60,143,.1)}
-.form-group textarea{resize:vertical;min-height:110px}
-.form-note{font-size:.78rem;color:var(--text-muted);text-align:center;margin-top:12px}
-.form-note a{color:var(--blue);text-decoration:none;font-weight:600}
-.info-cards{display:flex;flex-direction:column;gap:14px}
-.info-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:20px 24px;box-shadow:var(--shadow-sm);display:flex;align-items:center;gap:16px}
-.info-card-icon{width:44px;height:44px;border-radius:10px;background:rgba(26,60,143,.07);display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.info-card-icon svg{width:22px;height:22px;stroke:#1a3c8f;fill:none;stroke-width:1.5}
-.info-card-label{font-size:.75rem;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:3px}
-.info-card-val{font-size:.95rem;font-weight:700;color:var(--text-dark)}
-.wa-card{background:linear-gradient(135deg,rgba(37,211,102,.08),rgba(37,211,102,.03));border-color:rgba(37,211,102,.25)}
-.wa-card .info-card-icon{background:rgba(37,211,102,.12)}
-.wa-card .info-card-icon svg{stroke:none;fill:#25D366}
-.wa-card .info-card-val{color:#128C5E}
-
-/* ════════════════ FOOTER ════════════════ */
-#footer{background:#07102a;padding:64px 0 32px}
-.footer-top{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:48px;padding-bottom:48px;border-bottom:1px solid rgba(255,255,255,.08)}
-.footer-logo img{height:72px;object-fit:contain;filter:brightness(0) invert(1);display:block;margin-bottom:16px}
-.footer-desc{font-size:.85rem;color:rgba(255,255,255,.45);line-height:1.7;max-width:28ch;margin-bottom:20px}
-.footer-socials{display:flex;gap:12px}
-.social-btn{width:36px;height:36px;border-radius:8px;border:1px solid rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;transition:border-color 150ms,background 150ms;cursor:pointer;text-decoration:none}
-.social-btn:hover{border-color:rgba(255,255,255,.5);background:rgba(255,255,255,.05)}
-.social-btn svg{width:16px;height:16px;fill:rgba(255,255,255,.5);transition:fill 150ms}
-.social-btn:hover svg{fill:#fff}
-.footer-col-title{font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#2dc4b0;margin-bottom:16px}
-.footer-links{list-style:none;display:flex;flex-direction:column;gap:10px}
-.footer-links a{text-decoration:none;font-size:.85rem;color:rgba(255,255,255,.45);transition:color 150ms}
-.footer-links a:hover{color:rgba(255,255,255,.9)}
-.footer-contact-item{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-size:.85rem;color:rgba(255,255,255,.45)}
-.footer-contact-item svg{width:16px;height:16px;stroke:rgba(255,255,255,.3);fill:none;stroke-width:1.5;flex-shrink:0}
-.footer-cta-sm{display:inline-flex;align-items:center;gap:8px;margin-top:16px;background:#2dc4b0;color:#07102a;padding:10px 20px;border-radius:8px;font-weight:700;font-size:.82rem;text-decoration:none;transition:background 150ms,transform 150ms}
-.footer-cta-sm:hover{background:#22a899;transform:translateY(-1px)}
-.footer-bottom{padding-top:24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
-.footer-copy{font-size:.78rem;color:rgba(255,255,255,.3)}
-
-/* ════════════════ FLOTANTES ════════════════ */
-#wa-btn{position:fixed;bottom:24px;right:24px;display:flex;align-items:center;gap:10px;background:#25D366;border-radius:50px;padding:14px 22px;color:#fff;font-family:'Inter',sans-serif;font-weight:700;font-size:.9rem;text-decoration:none;box-shadow:0 4px 20px rgba(37,211,102,.45);z-index:var(--z-float);animation:waPulse 2.5s ease-in-out infinite;transition:transform 150ms,box-shadow 150ms}
-#wa-btn:hover{animation:none;transform:scale(1.05);box-shadow:0 6px 28px rgba(37,211,102,.6)}
-#wa-btn svg{width:24px;height:24px;fill:#fff;flex-shrink:0}
-@keyframes waPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
-#top-btn{position:fixed;bottom:90px;right:24px;width:44px;height:44px;background:#1a3c8f;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-md);z-index:var(--z-float);cursor:pointer;border:none;opacity:0;transform:translateY(8px);transition:opacity 200ms,transform 200ms}
-#top-btn.visible{opacity:1;transform:none}
-#top-btn:hover{background:#0f2660}
-#top-btn svg{width:20px;height:20px;stroke:#fff;fill:none;stroke-width:2}
-#cursor-dot{position:fixed;width:8px;height:8px;border-radius:50%;background:#2dc4b0;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);opacity:.7;transition:transform 80ms ease;display:none}
-
-/* ════════════════ RESPONSIVE ════════════════ */
-@media(max-width:1024px){
-  .services-grid{grid-template-columns:repeat(2,1fr)}
-  .nosotros-grid{grid-template-columns:1fr;gap:40px}
-  .counters-card{max-width:480px}
-  .footer-top{grid-template-columns:1fr 1fr}
-  .footer-top>:first-child{grid-column:1/-1}
-}
-@media(max-width:768px){
-  .nav-links,.nav-right .btn{display:none}
-  .nav-hamburger{display:flex}
-  .tecnicas-grid{grid-template-columns:1fr}
-  .tecnica-item:nth-child(odd){border-right:none}
-  .tecnica-item{border-bottom:1px solid var(--border)!important}
-  .proceso-steps{grid-template-columns:repeat(2,1fr);gap:32px}
-  .proceso-steps::before{display:none}
-  .contacto-grid{grid-template-columns:1fr}
-  .hero-stats{grid-template-columns:repeat(2,1fr)}
-  .footer-top{grid-template-columns:1fr;gap:32px}
-  .footer-top>:first-child{grid-column:auto}
-  .form-row{grid-template-columns:1fr}
-}
-@media(max-width:480px){
-  .services-grid{grid-template-columns:1fr}
-  .proceso-steps{grid-template-columns:1fr}
-  .hero-stats{grid-template-columns:repeat(2,1fr)}
-  .hero-h1{font-size:clamp(2.8rem,12vw,4rem)}
-}
-@media(min-width:769px){#cursor-dot{display:block}}
+/* ══════════════════════════════════════════════════════════
+   17. REDUCED MOTION
+   ══════════════════════════════════════════════════════════ */
 @media(prefers-reduced-motion:reduce){
-  .reveal{opacity:1;transform:none}
-  .mq1{animation-duration:120s}
-  .scroll-arrow{animation:none}
-  #wa-btn{animation:none}
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .reveal{opacity:1!important;transform:none!important}
 }
 </style>
 </head>
 <body>
 
-<!-- CURSOR DOT -->
-<div id="cursor-dot" aria-hidden="true"></div>
+<!-- Cursor dot -->
+<div class="cursor-dot" aria-hidden="true"></div>
 
 <!-- ══════════ NAVBAR ══════════ -->
-<nav id="navbar" role="navigation" aria-label="Navegación principal">
-  <div class="nav-inner">
-    <a class="nav-logo" href="#inicio" aria-label="JAN Diseño — Inicio">
-      <img src="LOGO%20JAN%20.png" alt="JAN Diseño">
+<nav class="nav" id="nav" aria-label="Navegación principal">
+  <div class="container">
+    <a href="#hero" class="nav-logo" aria-label="JAN Diseño — inicio">
+      <!-- ══ EDITAR: el logo es el archivo "LOGO JAN .png" en esta misma carpeta ══ -->
+      <img src="LOGO JAN .png" alt="JAN Diseño — Arte, Diseño y Publicidad">
     </a>
     <ul class="nav-links">
-      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#hero" class="active">Inicio</a></li>
       <li><a href="#nosotros">Nosotros</a></li>
       <li><a href="#servicios">Servicios</a></li>
       <li><a href="#tecnicas">Técnicas</a></li>
       <li><a href="#clientes">Clientes</a></li>
       <li><a href="#contacto">Contacto</a></li>
     </ul>
-    <div class="nav-right">
-      <a href="#contacto" class="btn btn-primary btn-sm">Cotizar ahora</a>
-      <button class="nav-hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+    <div class="nav-cta">
+      <a href="#contacto" class="btn btn-navy btn-sm">Cotizar ahora</a>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="drawer">
         <span></span><span></span><span></span>
       </button>
     </div>
   </div>
 </nav>
 
-<!-- Mobile Menu -->
-<div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Menú móvil">
-  <a href="#inicio" class="mobile-link">Inicio</a>
-  <a href="#nosotros" class="mobile-link">Nosotros</a>
-  <a href="#servicios" class="mobile-link">Servicios</a>
-  <a href="#tecnicas" class="mobile-link">Técnicas</a>
-  <a href="#clientes" class="mobile-link">Clientes</a>
-  <a href="#contacto" class="mobile-link">Contacto</a>
-  <a href="#contacto" class="btn btn-primary">Cotizar ahora</a>
+<!-- Drawer móvil -->
+<div class="drawer" id="drawer" aria-hidden="true">
+  <a href="#hero">Inicio</a>
+  <a href="#nosotros">Nosotros</a>
+  <a href="#servicios">Servicios</a>
+  <a href="#tecnicas">Técnicas</a>
+  <a href="#clientes">Clientes</a>
+  <a href="#contacto">Contacto</a>
+  <a href="#contacto" class="btn btn-navy">Cotizar ahora</a>
 </div>
 
 <!-- ══════════ HERO ══════════ -->
-<section id="inicio" aria-label="Hero principal">
-  <div id="hero">
-    <canvas id="hero-canvas" aria-hidden="true"></canvas>
-    <div class="hero-inner">
-      <p class="hero-eyebrow reveal">Arte · Diseño · Publicidad · León, Gto.</p>
-      <span class="badge badge-teal reveal" style="margin-bottom:20px;transition-delay:.1s">
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="#2dc4b0" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-        León, Gto. · +14 años de experiencia
-      </span>
-      <h1 class="hero-h1 reveal" style="transition-delay:.2s">
-        <span class="line-teal">Tu marca,</span>
-        <span class="line-white">diseñada para</span>
-        <span class="line-grad">impactar.</span>
-      </h1>
-      <p class="hero-desc reveal" style="transition-delay:.3s">Somos la empresa de diseño gráfico, publicidad e impresión de confianza en León, Guanajuato desde 2010.</p>
-      <div class="hero-btns reveal" style="transition-delay:.4s">
-        <a href="#servicios" class="btn btn-teal">Ver servicios</a>
-        <a href="https://wa.me/524772359382" class="btn btn-ghost-white" target="_blank" rel="noopener">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          Cotizar por WhatsApp
-        </a>
-      </div>
-      <div class="hero-stats reveal" style="transition-delay:.5s">
-        <div class="stat-item">
-          <span class="stat-num">14+</span>
-          <span class="stat-label">Años de experiencia</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-num">500+</span>
-          <span class="stat-label">Clientes satisfechos</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-num">10</span>
-          <span class="stat-label">Servicios especializados</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-num">100%</span>
-          <span class="stat-label">Entrega puntual</span>
+<header class="hero" id="hero">
+  <div class="container">
+    <div class="hero-split">
+      <!-- Columna izquierda -->
+      <div class="hero-copy">
+        <!-- ══ EDITAR: eyebrow y badge ══ -->
+        <p class="hero-eyebrow">Arte · Diseño · Publicidad · León, Gto.</p>
+        <span class="hero-badge"><span class="star">★</span> León, Gto. · +14 años de experiencia</span>
+        <h1 class="display">
+          <span class="l1">TU MARCA,</span><br>
+          <span class="l2">DISEÑADA</span><br>
+          <span class="l3">PARA IMPACTAR.</span>
+        </h1>
+        <p class="hero-p">Somos la empresa de confianza en señalética, impresión y diseño en León desde 2010. Materiales premium, entregas puntuales y atención personalizada para tu negocio.</p>
+        <div class="hero-ctas">
+          <a href="#servicios" class="btn btn-teal">Ver servicios</a>
+          <!-- ══ EDITAR: link de WhatsApp ══ -->
+          <a href="https://wa.me/524772359382?text=Hola%20JAN%20Dise%C3%B1o%2C%20me%20interesa%20cotizar%20un%20proyecto." target="_blank" rel="noopener" class="btn btn-ghost-white">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.463 0 .104 5.359.101 11.945c0 2.096.547 4.142 1.588 5.945L0 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.581 0 11.94-5.359 11.943-11.945a11.821 11.821 0 00-3.495-8.4"/></svg>
+            Cotizar por WhatsApp
+          </a>
         </div>
       </div>
+      <!-- Columna derecha: showcase -->
+      <aside class="showcase" aria-label="Servicios destacados">
+        <p class="showcase-title">Nuestros servicios estrella</p>
+        <div class="showcase-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M9 22V12h6v10"/></svg>
+          <span>Señalética Corporativa</span>
+        </div>
+        <div class="showcase-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M3 13l2-5h11l3 5"/><path d="M5 13h15v4H3v-4z"/><circle cx="7" cy="17" r="1.6"/><circle cx="17" cy="17" r="1.6"/></svg>
+          <span>Rotulación Vehicular</span>
+        </div>
+        <div class="showcase-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
+          <span>Letreros con Iluminación LED</span>
+        </div>
+        <a href="#servicios" class="btn btn-ghost-teal btn-sm btn-block">Ver todos →</a>
+      </aside>
     </div>
-    <div class="scroll-ind" aria-hidden="true">
-      <span>Scroll</span>
-      <div class="scroll-arrow"></div>
+
+    <!-- Stats bar -->
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="num counter" data-target="14" data-suffix="+">0</div><div class="lbl">Años</div></div>
+      <div class="hero-stat"><div class="num counter" data-target="500" data-suffix="+">0</div><div class="lbl">Clientes</div></div>
+      <div class="hero-stat"><div class="num counter" data-target="14" data-suffix="">0</div><div class="lbl">Servicios</div></div>
+      <div class="hero-stat"><div class="num counter" data-target="100" data-suffix="%">0</div><div class="lbl">Puntual</div></div>
     </div>
   </div>
-</section>
+  <a href="#nosotros" class="scroll-ind" aria-label="Desplazarse hacia abajo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+  </a>
+</header>
 
 <!-- ══════════ SOBRE NOSOTROS ══════════ -->
-<section id="nosotros" aria-label="Sobre JAN Diseño">
-  <div class="section-wrap">
-    <div class="nosotros-grid">
-      <div class="nosotros-text reveal">
+<section class="section about" id="nosotros">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-text reveal">
         <div class="divider-bar"></div>
-        <span class="badge badge-blue" style="margin-bottom:16px">Sobre Nosotros</span>
-        <h2 class="section-h2" style="text-align:left;margin-bottom:20px">Somos JAN Diseño</h2>
-        <p>Desde 2010, en León, Guanajuato, hemos ayudado a cientos de empresas y emprendedores a construir marcas que comunican, impactan y perduran.</p>
-        <p>Combinamos diseño gráfico creativo con producción de alta calidad para ofrecer soluciones visuales completas: desde una tarjeta de presentación hasta una señalética corporativa de gran formato.</p>
-        <ul class="valores-list">
-          <li class="valor-item">
-            <div class="valor-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </div>
-            <div>
-              <div class="valor-title">Calidad garantizada</div>
-              <div class="valor-desc">Materiales premium y acabados que reflejan el valor de tu marca.</div>
-            </div>
-          </li>
-          <li class="valor-item">
-            <div class="valor-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke-linecap="round"/><path d="M12 6v6l4 2" stroke-linecap="round"/></svg>
-            </div>
-            <div>
-              <div class="valor-title">Entrega puntual</div>
-              <div class="valor-desc">Cumplimos fechas porque sabemos que tu negocio no puede esperar.</div>
-            </div>
-          </li>
-          <li class="valor-item">
-            <div class="valor-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </div>
-            <div>
-              <div class="valor-title">Atención personalizada</div>
-              <div class="valor-desc">Te asesoramos en cada etapa del proyecto para el mejor resultado.</div>
-            </div>
-          </li>
-        </ul>
+        <span class="badge badge-navy">Sobre Nosotros</span>
+        <h2 class="h2">Somos JAN Diseño</h2>
+        <!-- ══ EDITAR: historia de la empresa ══ -->
+        <p>Desde 2010 transformamos ideas en marcas que impactan y perduran. Nacimos en León, Guanajuato, con una misión clara: dar a cada negocio una presencia visual a la altura de su ambición.</p>
+        <p>Más de 14 años después, somos el aliado de confianza de cientos de empresas en toda la región, combinando arte, diseño y tecnología de impresión para resultados que se notan.</p>
+        <div class="values">
+          <div class="value">
+            <span class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></span>
+            <span><b>Calidad garantizada</b><span>Materiales premium y acabados de alto nivel en cada proyecto.</span></span>
+          </div>
+          <div class="value">
+            <span class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+            <span><b>Entrega puntual</b><span>Cumplimos fechas porque tu negocio no puede esperar.</span></span>
+          </div>
+          <div class="value">
+            <span class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/></svg></span>
+            <span><b>Atención personalizada</b><span>Asesoría directa en cada etapa de tu proyecto.</span></span>
+          </div>
+        </div>
+        <div class="chips">
+          <span class="chip">Asesoría sin costo</span>
+          <span class="chip">Muestras antes de producir</span>
+          <span class="chip">Entrega express disponible</span>
+          <span class="chip">Cotización en menos de 24 hrs</span>
+        </div>
       </div>
-      <div class="reveal" style="transition-delay:.15s">
-        <div class="counters-card">
-          <div class="counter-row">
-            <div class="counter-num" data-target="14" data-suffix="+">0+</div>
-            <div class="counter-label"><strong>Años de experiencia</strong>Presentes en León, Gto. desde 2010</div>
-          </div>
-          <div class="counter-row">
-            <div class="counter-num" data-target="500" data-suffix="+">0+</div>
-            <div class="counter-label"><strong>Clientes satisfechos</strong>Empresas y personas en toda la región</div>
-          </div>
-          <div class="counter-row">
-            <div class="counter-num" data-target="10">0</div>
-            <div class="counter-label"><strong>Servicios especializados</strong>Diseño, impresión, señalética y más</div>
-          </div>
+      <div class="counter-card reveal" aria-label="Cifras destacadas">
+        <div class="counter-row">
+          <div class="num counter" data-target="14" data-suffix="+">0</div>
+          <div class="title">Años de experiencia</div>
+          <div class="sub">Presentes en León, Gto. desde 2010</div>
+        </div>
+        <div class="counter-row">
+          <div class="num counter" data-target="500" data-suffix="+">0</div>
+          <div class="title">Clientes satisfechos</div>
+          <div class="sub">Empresas y personas en toda la región</div>
+        </div>
+        <div class="counter-row">
+          <div class="num counter" data-target="14" data-suffix="">0</div>
+          <div class="title">Servicios especializados</div>
+          <div class="sub">Señalética, impresión, diseño y más</div>
         </div>
       </div>
     </div>
@@ -414,334 +751,351 @@ body{font-family:'Inter',system-ui,sans-serif;background:#fff;color:#334155;-web
 </section>
 
 <!-- ══════════ SERVICIOS ══════════ -->
-<section id="servicios" aria-label="Nuestros servicios">
-  <div class="section-wrap">
-    <div class="section-header reveal">
-      <div class="divider-bar"></div>
-      <span class="badge badge-blue" style="margin-bottom:12px">Nuestros Servicios</span>
-      <h2 class="section-h2">Lo que hacemos</h2>
-      <p class="section-sub">Soluciones visuales completas para tu marca en León, Guanajuato.</p>
+<section class="section services" id="servicios">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="badge badge-navy">Servicios</span>
+      <h2 class="h2">Lo que hacemos</h2>
+      <p class="lead">14 servicios especializados para dar a tu marca una presencia profesional, dentro y fuera de tu negocio.</p>
     </div>
+
+    <!-- Filtros -->
+    <div class="filters reveal" role="tablist" aria-label="Filtrar servicios por categoría">
+      <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Todos</button>
+      <button class="filter-btn" data-filter="senaletica" role="tab" aria-selected="false">Señalética</button>
+      <button class="filter-btn" data-filter="impresion" role="tab" aria-selected="false">Impresión</button>
+      <button class="filter-btn" data-filter="diseno" role="tab" aria-selected="false">Diseño &amp; Textil</button>
+    </div>
+
+    <!-- ══ EDITAR: para añadir o cambiar un servicio, copia un bloque .svc-card ══ -->
     <div class="services-grid">
-
-      <div class="svc-card reveal" style="transition-delay:.05s">
-        <div class="svc-num">01</div>
-        <div class="svc-icon">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M3 7v1a3 3 0 006 0V7m0 1a3 3 0 006 0V7m0 1a3 3 0 006 0V7H3l2-4h14l2 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <div class="svc-title">Señalética Corporativa</div>
-        <div class="svc-desc">Identidad visual en cada espacio de tu empresa.</div>
+      <article class="svc-card reveal" data-cat="senaletica">
+        <span class="svc-num">01</span>
+        <div class="svc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M9 22V12h6v10"/></svg></div>
+        <h3>Señalética Corporativa</h3>
+        <p>Bajo norma NOM-003-SEGOB-2011 y personalizada. Estireno, PVC, coroplast, acrílico y lámina interior/exterior.</p>
         <span class="svc-tag">Señalética</span>
-      </div>
-
-      <div class="svc-card reveal" style="transition-delay:.1s">
-        <div class="svc-num">02</div>
-        <div class="svc-icon">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <div class="svc-title">Diseño Gráfico</div>
-        <div class="svc-desc">Conceptos creativos que comunican la esencia de tu marca.</div>
-        <span class="svc-tag">Diseño</span>
-      </div>
-
-      <div class="svc-card reveal" style="transition-delay:.15s">
-        <div class="svc-num">03</div>
-        <div class="svc-icon">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <div class="svc-title">Rotulación Vehicular</div>
-        <div class="svc-desc">Tu marca en movimiento, recorriendo cada calle de la ciudad.</div>
+      </article>
+      <article class="svc-card reveal" data-cat="senaletica">
+        <span class="svc-num">02</span>
+        <div class="svc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 13l2-5h11l3 5"/><path d="M5 13h15v4H3v-4z"/><circle cx="7" cy="17" r="1.6"/><circle cx="17" cy="17" r="1.6"/></svg></div>
+        <h3>Rotulación Vehicular</h3>
+        <p>Desde textos y logos hasta forrado total o parcial. Vinil de corte de alta durabilidad y vinil impreso en alta definición.</p>
         <span class="svc-tag">Señalética</span>
-      </div>
-
-      <div class="svc-card reveal" style="transition-delay:.2s">
-        <div class="svc-num">04</div>
-        <div class="svc-icon">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0110.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0l.229 2.523a1.125 1.125 0 01-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0021 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 00-1.913-.247M6.34 18H5.25A2.25 2.25 0 013 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 011.913-.247m10.5 0a48.536 48.536 0 00-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5zm-3 0h.008v.008H15V10.5z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <div class="svc-title">Impresión Digital</div>
-        <div class="svc-desc">Lonas, banners y material de gran formato de alto impacto.</div>
-        <span class="svc-tag">Impresión</span>
-      </div>
-
-      <div class="svc-card reveal" style="transition-delay:.25s">
-        <div class="svc-num">05</div>
-        <div class="svc-icon">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <div class="svc-title">Impresión Offset</div>
-        <div class="svc-desc">Calidad fotográfica y color preciso para tirajes grandes.</div>
-        <span class="svc-tag">Impresión</span>
-      </div>
-
-      <div class="svc-card reveal" style="transition-delay:.3s">
-        <div class="svc-num">06</div>
-        <div class="svc-icon">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v17.25m0 0c-1.472-1.73-3.897-2.25-6-2.25m6 2.25c1.472-1.73 3.897-2.25 6-2.25M6 3h12M3 9h18M3 15h18" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <div class="svc-title">Letras en Acrílico</div>
-        <div class="svc-desc">Tridimensionalidad y elegancia para tu espacio corporativo.</div>
+      </article>
+      <article class="svc-card reveal" data-cat="senaletica">
+        <span class="svc-num">03</span>
+        <div class="svc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></div>
+        <h3>Letreros con Iluminación LED</h3>
+        <p>Panel de aluminio, acrílico o metal, letras de cajón o planas, con iluminación LED de alto impacto.</p>
         <span class="svc-tag">Señalética</span>
-      </div>
-
-      <div class="svc-card reveal" style="transition-delay:.35s">
-        <div class="svc-num">07</div>
-        <div class="svc-icon">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <div class="svc-title">Uniformes Corporativos</div>
-        <div class="svc-desc">Tu imagen de marca reflejada en cada colaborador.</div>
-        <span class="svc-tag">Diseño</span>
-      </div>
-
-      <div class="svc-card reveal" style="transition-delay:.4s">
-        <div class="svc-num">08</div>
-        <div class="svc-icon">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <div class="svc-title">Sublimación</div>
-        <div class="svc-desc">Colores vivos y duraderos en telas, tazas y más productos.</div>
+      </article>
+      <article class="svc-card reveal" data-cat="senaletica">
+        <span class="svc-num">04</span>
+        <div class="svc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="3" width="12" height="14" rx="1"/><path d="M12 17v4M8 21h8"/></svg></div>
+        <h3>Banners y Displays</h3>
+        <p>Roll up, flexo stand recto o curvo, display de altura ajustable, banner araña reforzado y doble vista.</p>
+        <span class="svc-tag">Señalética</span>
+      </article>
+      <article class="svc-card reveal" data-cat="senaletica">
+        <span class="svc-num">05</span>
+        <div class="svc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="1"/><path d="M7 8h10M7 12h6"/></svg></div>
+        <h3>Tableros y Pizarrones</h3>
+        <p>MDF, acrílico, pintarrón blanco o magnético, con luz LED, giratorio, porta hojas y tablero mensual.</p>
+        <span class="svc-tag">Señalética</span>
+      </article>
+      <article class="svc-card reveal" data-cat="impresion">
+        <span class="svc-num">06</span>
+        <div class="svc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6"/><rect x="4" y="9" width="16" height="8" rx="1"/><path d="M7 17h10v4H7z"/></svg></div>
+        <h3>Impresión Digital · Offset · GF</h3>
+        <p>Lonas, vinil impreso, vinil mesh, flyers, invitaciones, calendarios, pósters, trípticos y cartas menú.</p>
         <span class="svc-tag">Impresión</span>
-      </div>
-
-      <div class="svc-card reveal" style="transition-delay:.45s">
-        <div class="svc-num">09</div>
-        <div class="svc-icon">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <div class="svc-title">Corte Láser</div>
-        <div class="svc-desc">Precisión milimétrica en madera, acrílico, MDF y más.</div>
+      </article>
+      <article class="svc-card reveal" data-cat="impresion">
+        <span class="svc-num">07</span>
+        <div class="svc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="3" width="10" height="8" rx="1"/><path d="M5 11h14l-1 10H6z"/></svg></div>
+        <h3>Sellos de Goma</h3>
+        <p>Numeradores, fechadores, portátil, tradicional, plástico o metal. Tintas y máquinas ecológicas.</p>
         <span class="svc-tag">Impresión</span>
-      </div>
-
-      <div class="svc-card reveal" style="transition-delay:.5s">
-        <div class="svc-num">10</div>
-        <div class="svc-icon">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <div class="svc-title">Displays y Exhibidores</div>
-        <div class="svc-desc">Material POP que impulsa ventas en punto de venta.</div>
-        <span class="svc-tag">Diseño</span>
-      </div>
-
+      </article>
+      <article class="svc-card reveal" data-cat="impresion">
+        <span class="svc-num">08</span>
+        <div class="svc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8" cy="11" r="2"/><path d="M13 9h5M13 13h5"/></svg></div>
+        <h3>Credenciales en PVC</h3>
+        <p>Credenciales profesionales para tu personal, con toma de fotografía incluida.</p>
+        <span class="svc-tag">Impresión</span>
+      </article>
+      <article class="svc-card reveal" data-cat="impresion">
+        <span class="svc-num">09</span>
+        <div class="svc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 7H4l1.5 13h13z"/><path d="M9 7a3 3 0 016 0"/></svg></div>
+        <h3>Artículos Promocionales</h3>
+        <p>Amplio catálogo de productos personalizados para impulsar tu marca en cada evento.</p>
+        <span class="svc-tag">Impresión</span>
+      </article>
+      <article class="svc-card reveal" data-cat="impresion">
+        <span class="svc-num">10</span>
+        <div class="svc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 9h16M9 4v16"/></svg></div>
+        <h3>Trabajos en Acrílico</h3>
+        <p>Buzones, cajas, letreros, porta hojas de pared y mesa, exhibidores, letras, organizadores y capelos.</p>
+        <span class="svc-tag">Impresión</span>
+      </article>
+      <article class="svc-card reveal" data-cat="impresion">
+        <span class="svc-num">11</span>
+        <div class="svc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4v16M4 5h13l-2 4 2 4H4"/></svg></div>
+        <h3>Tapetes y Banderas</h3>
+        <p>Tapetes de polipropileno con logo y banderas corporativas o de países, interior y exterior.</p>
+        <span class="svc-tag">Impresión</span>
+      </article>
+      <article class="svc-card reveal" data-cat="diseno">
+        <span class="svc-num">12</span>
+        <div class="svc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3l3 3 3-3 3 3 3-3v6l-3 2v10H9V11L6 9z"/></svg></div>
+        <h3>Uniformes y Textil</h3>
+        <p>Playeras, camisas, sudaderas, gorras, chalecos, filipinas, chamarras y más, con logo bordado.</p>
+        <span class="svc-tag">Diseño &amp; Textil</span>
+      </article>
+      <article class="svc-card reveal" data-cat="diseno">
+        <span class="svc-num">13</span>
+        <div class="svc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.5 5 5.5.8-4 3.9 1 5.5L12 14.8 7 17.2l1-5.5-4-3.9L9.5 7z"/></svg></div>
+        <h3>Proyectos Especiales</h3>
+        <p>Gabinetes, porta tablets, casilleros, estructuras, ayudas visuales, esculturas y estaciones de limpieza.</p>
+        <span class="svc-tag">Diseño &amp; Textil</span>
+      </article>
+      <article class="svc-card reveal" data-cat="diseno">
+        <span class="svc-num">14</span>
+        <div class="svc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M2 2l7.5 7.5M11 13l-2 6 6-2"/></svg></div>
+        <h3>Diseño Gráfico</h3>
+        <p>Identidad de marca, logotipos, papelería y todo el arte que tu negocio necesita para destacar.</p>
+        <span class="svc-tag">Diseño &amp; Textil</span>
+      </article>
+      <!-- Card CTA · siempre visible en todos los filtros -->
+      <article class="svc-card svc-card-cta reveal" data-cat="always">
+        <div class="svc-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/><path d="M12 7v4M12 14h.01"/></svg></div>
+        <h3>¿No encuentras tu servicio?</h3>
+        <p>Cuéntanos qué necesitas. Hacemos proyectos a la medida para tu negocio.</p>
+        <a href="https://wa.me/524772359382?text=Hola%20JAN%20Dise%C3%B1o%2C%20tengo%20un%20proyecto%20especial%20y%20me%20gustar%C3%ADa%20cotizarlo." target="_blank" rel="noopener" class="btn btn-teal btn-sm">Escríbenos →</a>
+      </article>
     </div>
   </div>
 </section>
 
-<!-- ══════════ TÉCNICAS ══════════ -->
-<section id="tecnicas" aria-label="Técnicas de producción">
-  <div class="tecnicas-bg" aria-hidden="true"></div>
-  <div class="section-wrap" style="position:relative;z-index:1">
-    <div class="section-header reveal">
-      <div class="divider-bar"></div>
-      <span class="badge badge-blue" style="margin-bottom:12px">Proceso Productivo</span>
-      <h2 class="section-h2">7 Técnicas de Impresión</h2>
-      <p class="section-sub">Tecnología de punta para cada necesidad de tu proyecto.</p>
+<!-- ══════════ TÉCNICAS (dark) ══════════ -->
+<section class="section techniques" id="tecnicas">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="badge badge-teal">Proceso Productivo</span>
+      <h2 class="h2">8 Técnicas de Impresión</h2>
     </div>
-    <div class="tecnicas-grid">
-      <div class="tecnica-item reveal">
-        <div class="tecnica-dec" aria-hidden="true">01</div>
-        <div class="tecnica-line"></div>
-        <div class="tecnica-name">Serigrafía</div>
-        <div class="tecnica-desc">Colores sólidos y durabilidad extrema sobre cualquier superficie plana.</div>
-      </div>
-      <div class="tecnica-item reveal" style="transition-delay:.1s">
-        <div class="tecnica-dec" aria-hidden="true">02</div>
-        <div class="tecnica-line"></div>
-        <div class="tecnica-name">Offset</div>
-        <div class="tecnica-desc">Calidad fotográfica y reproducción de color precisa en grandes tirajes.</div>
-      </div>
-      <div class="tecnica-item reveal" style="transition-delay:.15s">
-        <div class="tecnica-dec" aria-hidden="true">03</div>
-        <div class="tecnica-line"></div>
-        <div class="tecnica-name">Digital Gran Formato</div>
-        <div class="tecnica-desc">Lonas, banners y vinilos de gran tamaño con colores vivos y nítidos.</div>
-      </div>
-      <div class="tecnica-item reveal" style="transition-delay:.2s">
-        <div class="tecnica-dec" aria-hidden="true">04</div>
-        <div class="tecnica-line"></div>
-        <div class="tecnica-name">Sublimación Textil</div>
-        <div class="tecnica-desc">Colores permanentes que se integran a la fibra, sin pelar ni cuartearse.</div>
-      </div>
-      <div class="tecnica-item reveal" style="transition-delay:.25s">
-        <div class="tecnica-dec" aria-hidden="true">05</div>
-        <div class="tecnica-line"></div>
-        <div class="tecnica-name">Corte Láser</div>
-        <div class="tecnica-desc">Precisión milimétrica en madera, acrílico, MDF, cuero y más materiales.</div>
-      </div>
-      <div class="tecnica-item reveal" style="transition-delay:.3s">
-        <div class="tecnica-dec" aria-hidden="true">06</div>
-        <div class="tecnica-line"></div>
-        <div class="tecnica-name">Ploteo de Corte</div>
-        <div class="tecnica-desc">Vinilos y señalética de alta precisión para cualquier forma y tamaño.</div>
-      </div>
-      <div class="tecnica-item reveal" style="transition-delay:.35s">
-        <div class="tecnica-dec" aria-hidden="true">07</div>
-        <div class="tecnica-line"></div>
-        <div class="tecnica-name">Impresión UV</div>
-        <div class="tecnica-desc">Sobre cualquier superficie rígida, sin límites de material o textura.</div>
-      </div>
-      <div class="tecnica-item" style="border-bottom:none;display:flex;align-items:center;justify-content:center">
-        <a href="#contacto" class="btn btn-primary reveal" style="transition-delay:.4s">Cotizar proyecto</a>
+    <div class="tech-grid">
+      <!-- ══ EDITAR: data-width controla el % de la barra (0–100) ══ -->
+      <div class="tech-item reveal"><span class="tech-num">01</span><div class="tech-line"></div><h3>Serigrafía</h3><p>Color sólido y duradero sobre múltiples materiales y superficies.</p><div class="tech-bar"><i data-width="85"></i></div></div>
+      <div class="tech-item reveal"><span class="tech-num">02</span><div class="tech-line"></div><h3>Offset</h3><p>Alta precisión para grandes tirajes con acabado profesional.</p><div class="tech-bar"><i data-width="90"></i></div></div>
+      <div class="tech-item reveal"><span class="tech-num">03</span><div class="tech-line"></div><h3>Grabado Láser</h3><p>Detalle fino y permanente en metal, acrílico y madera.</p><div class="tech-bar"><i data-width="88"></i></div></div>
+      <div class="tech-item reveal"><span class="tech-num">04</span><div class="tech-line"></div><h3>Grabado Sandblast</h3><p>Efecto esmerilado elegante sobre vidrio y acrílico.</p><div class="tech-bar"><i data-width="75"></i></div></div>
+      <div class="tech-item reveal"><span class="tech-num">05</span><div class="tech-line"></div><h3>Bordado</h3><p>Acabado textil premium para uniformes y prendas corporativas.</p><div class="tech-bar"><i data-width="72"></i></div></div>
+      <div class="tech-item reveal"><span class="tech-num">06</span><div class="tech-line"></div><h3>Estampado</h3><p>Versátil y económico para playeras y textiles personalizados.</p><div class="tech-bar"><i data-width="78"></i></div></div>
+      <div class="tech-item reveal"><span class="tech-num">07</span><div class="tech-line"></div><h3>Sublimado</h3><p>Color total y vibrante, ideal para tela y artículos promocionales.</p><div class="tech-bar"><i data-width="82"></i></div></div>
+      <div class="tech-item reveal"><span class="tech-num">08</span><div class="tech-line"></div><h3>Digital Gran Formato</h3><p>Alta resolución en lonas, vinil y espectaculares de gran tamaño.</p><div class="tech-bar"><i data-width="92"></i></div></div>
+      <div class="tech-cta reveal" style="grid-column:1/-1">
+        <a href="#contacto" class="btn btn-teal">Cotizar proyecto</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ══════════ CLIENTES ══════════ -->
-<section id="clientes" aria-label="Clientes de JAN Diseño">
-  <div>
-    <div class="section-wrap">
-      <div class="section-header reveal">
-        <div class="divider-bar"></div>
-        <span class="badge badge-blue" style="margin-bottom:12px">Nuestros Clientes</span>
-        <h2 class="section-h2">Empresas que confían en JAN</h2>
-        <p class="section-sub">Más de 500 empresas y emprendedores en León, Guanajuato y la región.</p>
+<!-- ══════════ POR QUÉ ELEGIRNOS ══════════ -->
+<section class="section why">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="badge badge-navy">Por Qué JAN</span>
+      <h2 class="h2">La diferencia JAN Diseño</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-block reveal">
+        <div class="why-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 01-10 0z"/><path d="M17 5h3v2a3 3 0 01-3 3M7 5H4v2a3 3 0 003 3"/></svg></div>
+        <h3>500+ proyectos entregados</h3>
+        <p>Una trayectoria comprobada que respalda cada trabajo que hacemos.</p>
       </div>
-    </div>
-    <div class="marquee-wrap" aria-label="Clientes de JAN Diseño">
-      <div class="marquee-row"><div class="mq-track mq1" id="mq1"></div></div>
-    </div>
-    <div class="clientes-cta reveal">
-      <a href="#contacto" class="btn btn-ghost" style="margin-top:8px">
-        ¿Quieres unirte?
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
+      <div class="why-block reveal">
+        <div class="why-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3>Señalética bajo norma</h3>
+        <p>Cumplimos la NOM-003-SEGOB-2011 para tu tranquilidad y la de tu personal.</p>
+      </div>
+      <div class="why-block reveal">
+        <div class="why-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6-7-11a7 7 0 0114 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+        <h3>Producción local en León</h3>
+        <p>Fabricamos aquí en León, Gto.: tiempos más rápidos y trato cercano.</p>
+      </div>
+      <div class="why-block reveal">
+        <div class="why-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+        <h3>Respuesta en menos de 24 hrs</h3>
+        <p>Te cotizamos rápido para que tu proyecto no pierda tiempo.</p>
+      </div>
+      <div class="why-block reveal">
+        <div class="why-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M2 2l7.5 7.5M11 13l-2 6 6-2"/></svg></div>
+        <h3>Asesoría de diseño incluida</h3>
+        <p>Diseñamos contigo en cada proyecto, sin costo adicional.</p>
+      </div>
+      <div class="why-block reveal">
+        <div class="why-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></div>
+        <h3>100% entrega puntual</h3>
+        <p>Cumplimos lo que prometemos: tu fecha pactada es nuestro compromiso.</p>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- ══════════ PROCESO ══════════ -->
-<section id="proceso" aria-label="Proceso de trabajo">
-  <div class="section-wrap">
-    <div class="section-header reveal">
-      <div class="divider-bar"></div>
-      <span class="badge badge-blue" style="margin-bottom:12px">Cómo Trabajamos</span>
-      <h2 class="section-h2">4 pasos hacia tu proyecto</h2>
-      <p class="section-sub">Un proceso claro, transparente y orientado a resultados.</p>
+<section class="section process">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="badge badge-navy">Cómo Trabajamos</span>
+      <h2 class="h2">4 pasos hacia tu proyecto</h2>
     </div>
-    <div class="proceso-steps">
-      <div class="paso reveal">
-        <div class="paso-num"><span class="paso-num-txt">1</span></div>
-        <div class="paso-title">Consulta</div>
-        <div class="paso-desc">Nos cuentas tu proyecto, necesidades y objetivos.</div>
+    <div class="steps reveal">
+      <div class="progress-line" id="progressLine"></div>
+      <div class="step">
+        <div class="step-circle">1</div>
+        <h3>Consulta</h3>
+        <p>Nos cuentas tu idea y te asesoramos sin compromiso.</p>
+        <span class="time">Inmediato</span>
       </div>
-      <div class="paso reveal" style="transition-delay:.1s">
-        <div class="paso-num"><span class="paso-num-txt">2</span></div>
-        <div class="paso-title">Propuesta</div>
-        <div class="paso-desc">Diseñamos opciones y te entregamos cotización detallada.</div>
+      <div class="step">
+        <div class="step-circle">2</div>
+        <h3>Propuesta</h3>
+        <p>Te entregamos cotización y diseño para tu aprobación.</p>
+        <span class="time">24–48 hrs</span>
       </div>
-      <div class="paso reveal" style="transition-delay:.2s">
-        <div class="paso-num"><span class="paso-num-txt">3</span></div>
-        <div class="paso-title">Producción</div>
-        <div class="paso-desc">Fabricamos con calidad y precisión según especificaciones.</div>
+      <div class="step">
+        <div class="step-circle">3</div>
+        <h3>Producción</h3>
+        <p>Fabricamos con materiales premium y control de calidad.</p>
+        <span class="time">Según proyecto</span>
       </div>
-      <div class="paso reveal" style="transition-delay:.3s">
-        <div class="paso-num"><span class="paso-num-txt">4</span></div>
-        <div class="paso-title">Entrega</div>
-        <div class="paso-desc">Entrega puntual con seguimiento y soporte post-proyecto.</div>
+      <div class="step">
+        <div class="step-circle">4</div>
+        <h3>Entrega</h3>
+        <p>Recibes tu proyecto terminado en la fecha pactada.</p>
+        <span class="time">Fecha pactada</span>
       </div>
     </div>
   </div>
 </section>
 
+<!-- ══════════ CLIENTES (marquee doble) ══════════ -->
+<section class="section clients-full" id="clientes">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="badge badge-navy">Clientes</span>
+      <h2 class="h2">Marcas que confían en nosotros</h2>
+      <p class="lead">Empresas de León y la región que ya impulsan su imagen con JAN Diseño.</p>
+    </div>
+  </div>
+  <!-- ══ EDITAR: los logos son IMÁGENES. Coloca los archivos en una carpeta "logos/"
+       y edita el arreglo "clientLogos" en el <script> al final del archivo.
+       Recomendado: PNG/SVG con fondo transparente, alto ~80px. ══ -->
+  <div class="marquee marquee-1"><div class="marquee-track logos-track" id="clients-track-1"></div></div>
+  <div class="container">
+    <div class="cta-center reveal">
+      <a href="#contacto" class="btn btn-ghost-navy">¿Quieres unirte? →</a>
+    </div>
+  </div>
+</section>
+
 <!-- ══════════ CONTACTO ══════════ -->
-<section id="contacto" aria-label="Contacto y cotización">
-  <div style="padding:96px 0;background:var(--bg-page)">
-    <div class="section-wrap">
-      <div class="section-header reveal">
-        <div class="divider-bar"></div>
-        <span class="badge badge-blue" style="margin-bottom:12px">Contacto</span>
-        <h2 class="section-h2">¿Listo para empezar?</h2>
-        <p class="section-sub">Cuéntanos tu proyecto. Respondemos en menos de 24 horas.</p>
-      </div>
-      <div class="contacto-grid">
-        <div class="form-card reveal">
-          <h3>Cotiza tu proyecto</h3>
-          <p class="sub">Sin compromiso. Te respondemos rápido.</p>
-          <form id="contact-form" novalidate>
-            <div class="form-row">
-              <div class="form-group">
-                <label for="nombre">Nombre completo *</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required autocomplete="name">
-              </div>
-              <div class="form-group">
-                <label for="empresa">Empresa</label>
-                <input type="text" id="empresa" name="empresa" placeholder="Tu empresa (opcional)" autocomplete="organization">
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group">
-                <label for="telefono">Teléfono *</label>
-                <input type="tel" id="telefono" name="telefono" placeholder="477 000 0000" required autocomplete="tel">
-              </div>
-              <div class="form-group">
-                <label for="servicio">Servicio de interés</label>
-                <select id="servicio" name="servicio">
-                  <option value="">Selecciona un servicio</option>
-                  <option>Señalética Corporativa</option>
-                  <option>Diseño Gráfico</option>
-                  <option>Rotulación Vehicular</option>
-                  <option>Impresión Digital</option>
-                  <option>Impresión Offset</option>
-                  <option>Letras en Acrílico</option>
-                  <option>Uniformes Corporativos</option>
-                  <option>Sublimación</option>
-                  <option>Corte Láser</option>
-                  <option>Displays y Exhibidores</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="mensaje">Cuéntanos tu proyecto</label>
-              <textarea id="mensaje" name="mensaje" placeholder="Describe brevemente tu proyecto, dimensiones, cantidades, colores..."></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">
-              Enviar solicitud
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </button>
-          </form>
-          <p class="form-note">O escríbenos directo — <a href="https://wa.me/524772359382" target="_blank" rel="noopener">WhatsApp: (477) 235-93-82</a></p>
+<section class="section contact" id="contacto">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="badge badge-navy">Contacto</span>
+      <h2 class="h2">Cotiza tu proyecto</h2>
+      <p class="lead">Cuéntanos qué necesitas y te respondemos en menos de 24 horas.</p>
+    </div>
+    <div class="contact-grid">
+      <!-- Formulario -->
+      <div class="contact-form-card reveal">
+        <div class="mini-wa">
+          <div><b>¿Tienes prisa? Escríbenos directo</b><span>Respuesta inmediata por WhatsApp</span></div>
+          <!-- ══ EDITAR: WhatsApp directo ══ -->
+          <a href="https://wa.me/524791382015?text=Hola%20JAN%20Dise%C3%B1o%2C%20me%20interesa%20cotizar%20un%20proyecto." target="_blank" rel="noopener" class="btn btn-teal btn-sm">WhatsApp: (479) 138 20 15 →</a>
         </div>
-        <div class="info-cards reveal" style="transition-delay:.15s">
-          <div class="info-card">
-            <div class="info-card-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <form id="quoteForm" novalidate>
+          <div class="form-grid2">
+            <div class="form-row">
+              <label for="f-nombre">Nombre <span class="req">*</span></label>
+              <input type="text" id="f-nombre" name="nombre" required autocomplete="name" placeholder="Tu nombre">
             </div>
-            <div>
-              <div class="info-card-label">Teléfono</div>
-              <div class="info-card-val">(477) 235-93-82</div>
-            </div>
-          </div>
-          <div class="info-card">
-            <div class="info-card-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round"/><path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </div>
-            <div>
-              <div class="info-card-label">Ubicación</div>
-              <div class="info-card-val">León, Guanajuato, México</div>
+            <div class="form-row">
+              <label for="f-empresa">Empresa</label>
+              <input type="text" id="f-empresa" name="empresa" autocomplete="organization" placeholder="Nombre de tu empresa">
             </div>
           </div>
-          <div class="info-card">
-            <div class="info-card-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div class="form-grid2">
+            <div class="form-row">
+              <label for="f-tel">Teléfono <span class="req">*</span></label>
+              <input type="tel" id="f-tel" name="telefono" required autocomplete="tel" placeholder="(477) 000 00 00">
             </div>
-            <div>
-              <div class="info-card-label">Horario</div>
-              <div class="info-card-val">Lunes a Viernes · 9:00 – 18:00</div>
-            </div>
-          </div>
-          <div class="info-card wa-card">
-            <div class="info-card-icon">
-              <svg viewBox="0 0 24 24" fill="currentColor" style="stroke:none" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-            </div>
-            <div>
-              <div class="info-card-label">WhatsApp directo</div>
-              <div class="info-card-val" style="color:#128C5E">
-                <a href="https://wa.me/524772359382" target="_blank" rel="noopener" style="color:#128C5E;text-decoration:none;font-weight:700">(477) 235-93-82</a>
-              </div>
+            <div class="form-row">
+              <label for="f-email">Email</label>
+              <input type="email" id="f-email" name="email" autocomplete="email" placeholder="tu@correo.com">
             </div>
           </div>
+          <div class="form-row">
+            <label for="f-servicio">Servicio de interés</label>
+            <select id="f-servicio" name="servicio">
+              <option value="">Selecciona un servicio…</option>
+              <option>Señalética Corporativa</option>
+              <option>Rotulación Vehicular</option>
+              <option>Letreros con Iluminación LED</option>
+              <option>Banners y Displays</option>
+              <option>Tableros y Pizarrones</option>
+              <option>Impresión Digital · Offset · Gran Formato</option>
+              <option>Sellos de Goma</option>
+              <option>Credenciales en PVC</option>
+              <option>Artículos Promocionales</option>
+              <option>Trabajos en Acrílico</option>
+              <option>Tapetes y Banderas</option>
+              <option>Uniformes y Textil</option>
+              <option>Proyectos Especiales</option>
+              <option>Diseño Gráfico</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="f-mensaje">Mensaje</label>
+            <textarea id="f-mensaje" name="mensaje" placeholder="Cuéntanos sobre tu proyecto…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-navy btn-block" id="submitBtn">Enviar solicitud →</button>
+          <p class="form-note">¿Prefieres WhatsApp? <a href="https://wa.me/524772359382?text=Hola%20JAN%20Dise%C3%B1o%2C%20me%20interesa%20cotizar%20un%20proyecto." target="_blank" rel="noopener">Escríbenos aquí →</a></p>
+        </form>
+      </div>
+
+      <!-- Info -->
+      <div class="contact-info reveal">
+        <!-- ══ EDITAR: datos de contacto ══ -->
+        <div class="info-card">
+          <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg></span>
+          <div><b>Teléfono</b><a href="tel:+524772359382">(477) 235-93-82</a></div>
+        </div>
+        <div class="info-card">
+          <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 6L2 7"/></svg></span>
+          <div><b>Email</b><a href="mailto:jandisenoventas@jandiseno.com">jandisenoventas@jandiseno.com</a></div>
+        </div>
+        <div class="info-card">
+          <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6-7-11a7 7 0 0114 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+          <div><b>Dirección</b><span>Blvd. Francisco González Bocanegra #1008, Col. León Moderno, León, Gto.</span></div>
+        </div>
+        <div class="info-card">
+          <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+          <div><b>Horario</b><span>Lunes a Viernes · 9:00 – 18:00</span></div>
+        </div>
+        <a href="https://wa.me/524791382015?text=Hola%20JAN%20Dise%C3%B1o%2C%20me%20interesa%20cotizar%20un%20proyecto." target="_blank" rel="noopener" class="info-card info-wa">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.463 0 .104 5.359.101 11.945c0 2.096.547 4.142 1.588 5.945L0 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.581 0 11.94-5.359 11.943-11.945a11.821 11.821 0 00-3.495-8.4"/></svg></span>
+          <div><b>WhatsApp</b><span>(479) 138 20 15</span></div>
+        </a>
+        <!-- ══ EDITAR: el mapa apunta a la dirección real; cambia el iframe si la ubicación cambia ══ -->
+        <div class="map-embed">
+          <iframe
+            title="Ubicación de JAN Diseño en León, Gto."
+            src="https://www.google.com/maps?q=Blvd.%20Francisco%20Gonz%C3%A1lez%20Bocanegra%201008%2C%20Le%C3%B3n%2C%20Gto.&output=embed"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
@@ -749,270 +1103,271 @@ body{font-family:'Inter',system-ui,sans-serif;background:#fff;color:#334155;-web
 </section>
 
 <!-- ══════════ FOOTER ══════════ -->
-<footer id="footer" aria-label="Pie de página">
-  <div class="section-wrap">
-    <div class="footer-top">
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
       <div class="footer-col">
-        <div class="footer-logo">
-          <img src="LOGO%20JAN%20.png" alt="JAN Diseño">
-        </div>
-        <p class="footer-desc">Arte, diseño y publicidad de alto impacto. Transformando marcas en León, Guanajuato desde 2010.</p>
-        <div class="footer-socials">
-          <a href="#" class="social-btn" aria-label="Facebook de JAN Diseño">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
-          </a>
-          <a href="#" class="social-btn" aria-label="Instagram de JAN Diseño">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" fill="none" style="fill:none;stroke:rgba(255,255,255,.5);stroke-width:1"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-          </a>
-          <a href="https://wa.me/524772359382" class="social-btn" aria-label="WhatsApp de JAN Diseño" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          </a>
+        <div class="footer-logo"><img src="LOGO JAN .png" alt="JAN Diseño"></div>
+        <p class="footer-tagline">Arte · Diseño · Publicidad</p>
+        <p>Señalética, impresión y diseño de alto impacto. Transformando marcas en León, Guanajuato desde 2010.</p>
+        <div class="socials">
+          <!-- ══ EDITAR: enlaces a redes sociales ══ -->
+          <a href="#" class="fb" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12a10 10 0 10-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0022 12z"/></svg></a>
+          <a href="#" class="ig" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.1.4.3 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.1-1 .3-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.1-.4-.3-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.1 1-.3 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zM12 7a5 5 0 100 10 5 5 0 000-10zm0 8.2A3.2 3.2 0 1112 8.8a3.2 3.2 0 010 6.4zM17.8 6.9a1.2 1.2 0 100-2.4 1.2 1.2 0 000 2.4z"/></svg></a>
+          <a href="https://wa.me/524772359382" class="wa" aria-label="WhatsApp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.463 0 .104 5.359.101 11.945c0 2.096.547 4.142 1.588 5.945L0 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.581 0 11.94-5.359 11.943-11.945a11.821 11.821 0 00-3.495-8.4"/></svg></a>
         </div>
       </div>
       <div class="footer-col">
-        <div class="footer-col-title">Servicios</div>
-        <ul class="footer-links">
-          <li><a href="#servicios">Señalética Corporativa</a></li>
-          <li><a href="#servicios">Diseño Gráfico</a></li>
-          <li><a href="#servicios">Rotulación Vehicular</a></li>
-          <li><a href="#servicios">Impresión Digital</a></li>
-          <li><a href="#servicios">Letras en Acrílico</a></li>
-        </ul>
+        <h4>Servicios</h4>
+        <a href="#servicios">Señalética Corporativa</a>
+        <a href="#servicios">Rotulación Vehicular</a>
+        <a href="#servicios">Letreros con LED</a>
+        <a href="#servicios">Impresión Gran Formato</a>
+        <a href="#servicios">Uniformes y Textil</a>
+        <a href="#servicios">Diseño Gráfico</a>
       </div>
       <div class="footer-col">
-        <div class="footer-col-title">Contacto</div>
-        <div class="footer-contact-item">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          (477) 235-93-82
-        </div>
-        <div class="footer-contact-item">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round"/><path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          León, Guanajuato, México
-        </div>
-        <div class="footer-contact-item">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Lun–Vie · 9:00 – 18:00
-        </div>
-        <a href="#contacto" class="footer-cta-sm">
-          Cotizar ahora
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </a>
+        <h4>Contacto</h4>
+        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg><a href="tel:+524772359382">(477) 235-93-82</a></div>
+        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 6L2 7"/></svg><a href="mailto:jandisenoventas@jandiseno.com">jandisenoventas@jandiseno.com</a></div>
+        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6-7-11a7 7 0 0114 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Blvd. F. González Bocanegra #1008, León, Gto.</span></div>
+        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Lun a Vie · 9:00 – 18:00</span></div>
+        <a href="#contacto" class="btn btn-teal btn-sm">Cotizar ahora</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span class="footer-copy">© 2025 JAN Diseño. León, Guanajuato, México. Todos los derechos reservados.</span>
-      <span class="footer-copy">Diseño Gráfico · Impresión · Señalética</span>
+      <p>© 2025 JAN Diseño. Todos los derechos reservados.</p>
+      <p>Arte · Diseño · Publicidad</p>
     </div>
   </div>
 </footer>
 
 <!-- ══════════ FLOTANTES ══════════ -->
-<a id="wa-btn" href="https://wa.me/524772359382" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
-  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+<a href="https://wa.me/524772359382?text=Hola%20JAN%20Dise%C3%B1o%2C%20me%20interesa%20cotizar%20un%20proyecto." class="wa-float" target="_blank" rel="noopener" aria-label="Cotizar por WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.463 0 .104 5.359.101 11.945c0 2.096.547 4.142 1.588 5.945L0 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.581 0 11.94-5.359 11.943-11.945a11.821 11.821 0 00-3.495-8.4"/></svg>
   <span>WhatsApp</span>
 </a>
-<button id="top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Volver al inicio">
-  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 15l7-7 7 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<button class="to-top" id="toTop" aria-label="Volver arriba">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
 </button>
 
 <script>
+/* ══════════════════════════════════════════════════════════
+   JAVASCRIPT (vanilla, IIFE)
+   ══════════════════════════════════════════════════════════ */
 (function(){
-'use strict';
+  'use strict';
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-/* ── reduced motion check ── */
-const noMotion = window.matchMedia('(prefers-reduced-motion:reduce)').matches;
-
-/* ── CURSOR DOT ── */
-const dot = document.getElementById('cursor-dot');
-if(dot && window.innerWidth > 768){
-  document.addEventListener('mousemove',e=>{
-    dot.style.left = e.clientX + 'px';
-    dot.style.top  = e.clientY + 'px';
-  });
-}
-
-/* ── NAVBAR scroll ── */
-const navbar = document.getElementById('navbar');
-const links  = document.querySelectorAll('.nav-links a');
-function onScroll(){
-  navbar.classList.toggle('scrolled', window.scrollY > 40);
-  document.getElementById('top-btn').classList.toggle('visible', window.scrollY > 400);
-  /* active link */
-  const sections = ['inicio','nosotros','servicios','tecnicas','clientes','proceso','contacto'];
-  let cur = '';
-  sections.forEach(id=>{
-    const el = document.getElementById(id);
-    if(el && window.scrollY >= el.offsetTop - 100) cur = id;
-  });
-  links.forEach(a=>{
-    a.classList.toggle('active', a.getAttribute('href') === '#'+cur);
-  });
-}
-window.addEventListener('scroll', onScroll, {passive:true});
-
-/* ── HAMBURGER ── */
-const ham = document.getElementById('hamburger');
-const mob = document.getElementById('mobile-menu');
-ham.addEventListener('click',()=>{
-  const open = mob.classList.toggle('open');
-  ham.setAttribute('aria-expanded', open);
-  document.body.style.overflow = open ? 'hidden' : '';
-});
-mob.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
-  mob.classList.remove('open');
-  ham.setAttribute('aria-expanded','false');
-  document.body.style.overflow = '';
-}));
-
-/* ── SMOOTH SCROLL ── */
-document.querySelectorAll('a[href^="#"]').forEach(a=>{
-  a.addEventListener('click',e=>{
-    const t = document.querySelector(a.getAttribute('href'));
-    if(t){ e.preventDefault(); t.scrollIntoView({behavior:'smooth',block:'start'}); }
-  });
-});
-
-/* ── CANVAS PARTICLES ── */
-if(!noMotion){
-  const canvas = document.getElementById('hero-canvas');
-  const ctx    = canvas.getContext('2d');
-  let W,H,pts=[];
-  function resize(){
-    W = canvas.width  = canvas.offsetWidth;
-    H = canvas.height = canvas.offsetHeight;
-  }
-  function mkPt(){
-    return {
-      x: Math.random()*W, y: Math.random()*H,
-      vx:(Math.random()-.5)*.4, vy:(Math.random()-.5)*.3,
-      r: Math.random()*1.5+.5,
-      a: Math.random()*.5+.1
-    };
-  }
-  function init(){
-    resize();
-    pts = Array.from({length:55},mkPt);
-  }
-  function draw(){
-    ctx.clearRect(0,0,W,H);
-    pts.forEach(p=>{
-      p.x += p.vx; p.y += p.vy;
-      if(p.x<0||p.x>W) p.vx*=-1;
-      if(p.y<0||p.y>H) p.vy*=-1;
-      ctx.beginPath();
-      ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
-      ctx.fillStyle = `rgba(45,196,176,${p.a})`;
-      ctx.fill();
+  /* ——— Cursor dot (solo desktop) ——— */
+  var dot = document.querySelector('.cursor-dot');
+  if(dot && window.matchMedia('(pointer:fine)').matches){
+    document.addEventListener('mousemove',function(e){
+      dot.style.left = e.clientX + 'px';
+      dot.style.top  = e.clientY + 'px';
     });
-    /* connect nearby */
-    for(let i=0;i<pts.length;i++){
-      for(let j=i+1;j<pts.length;j++){
-        const dx=pts[i].x-pts[j].x, dy=pts[i].y-pts[j].y;
-        const d=Math.sqrt(dx*dx+dy*dy);
-        if(d<100){
-          ctx.beginPath();
-          ctx.moveTo(pts[i].x,pts[i].y);
-          ctx.lineTo(pts[j].x,pts[j].y);
-          ctx.strokeStyle=`rgba(45,196,176,${.12*(1-d/100)})`;
-          ctx.lineWidth=.5;
-          ctx.stroke();
-        }
+  }
+
+  /* ——— Navbar scroll ——— */
+  var nav = document.getElementById('nav');
+  var toTop = document.getElementById('toTop');
+  function onScroll(){
+    var y = window.scrollY;
+    nav.classList.toggle('scrolled', y > 40);
+    toTop.classList.toggle('show', y > 400);
+    updateActive();
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+
+  /* ——— Hamburger / drawer ——— */
+  var hb = document.getElementById('hamburger');
+  var drawer = document.getElementById('drawer');
+  function setDrawer(open){
+    drawer.classList.toggle('open', open);
+    document.body.classList.toggle('drawer-open', open);
+    document.body.style.overflow = open ? 'hidden' : '';
+    hb.setAttribute('aria-expanded', open ? 'true' : 'false');
+    drawer.setAttribute('aria-hidden', open ? 'false' : 'true');
+  }
+  hb.addEventListener('click', function(){ setDrawer(!drawer.classList.contains('open')); });
+  drawer.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', function(){ setDrawer(false); }); });
+
+  /* ——— Smooth scroll ——— */
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var id = a.getAttribute('href');
+      if(id === '#' || id.length < 2) return;
+      var t = document.querySelector(id);
+      if(t){
+        e.preventDefault();
+        var top = t.getBoundingClientRect().top + window.scrollY - 60;
+        window.scrollTo({top: top, behavior: reduce ? 'auto' : 'smooth'});
       }
-    }
-    requestAnimationFrame(draw);
+    });
+  });
+
+  /* ——— Active nav link por scroll ——— */
+  var sections = ['hero','nosotros','servicios','tecnicas','clientes','contacto'];
+  var navLinks = document.querySelectorAll('.nav-links a');
+  function updateActive(){
+    var pos = window.scrollY + 120, current = 'hero';
+    sections.forEach(function(id){
+      var el = document.getElementById(id);
+      if(el && el.offsetTop <= pos) current = id;
+    });
+    navLinks.forEach(function(a){
+      a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+    });
   }
-  window.addEventListener('resize',()=>{resize()},{passive:true});
-  init(); draw();
-}
 
-/* ── SCROLL REVEAL ── */
-const revealEls = document.querySelectorAll('.reveal');
-const revObs = new IntersectionObserver((entries)=>{
-  entries.forEach(entry=>{
-    if(entry.isIntersecting){
-      entry.target.classList.add('visible');
-      revObs.unobserve(entry.target);
-    }
-  });
-},{threshold:.12});
-revealEls.forEach(el=>revObs.observe(el));
-
-/* ── COUNTER ANIMATION ── */
-function easeOutCubic(t){ return 1-Math.pow(1-t,3); }
-function animateCount(el){
-  const target  = parseInt(el.dataset.target,10);
-  const suffix  = el.dataset.suffix || '';
-  const dur     = 1800;
-  const start   = performance.now();
-  function step(now){
-    const p = Math.min((now-start)/dur,1);
-    el.textContent = Math.round(easeOutCubic(p)*target) + suffix;
-    if(p<1) requestAnimationFrame(step);
+  /* ——— Scroll reveal ——— */
+  var revealEls = document.querySelectorAll('.reveal');
+  if(reduce){
+    revealEls.forEach(function(el){ el.classList.add('visible'); });
+  } else if('IntersectionObserver' in window){
+    var ro = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){ en.target.classList.add('visible'); ro.unobserve(en.target); }
+      });
+    }, {threshold:.12});
+    revealEls.forEach(function(el){ ro.observe(el); });
+  } else {
+    revealEls.forEach(function(el){ el.classList.add('visible'); });
   }
-  requestAnimationFrame(step);
-}
-const cntObs = new IntersectionObserver((entries)=>{
-  entries.forEach(entry=>{
-    if(entry.isIntersecting){
-      animateCount(entry.target);
-      cntObs.unobserve(entry.target);
+
+  /* ——— Counters ——— */
+  function animateCounter(el){
+    var target = parseInt(el.getAttribute('data-target'),10) || 0;
+    var suffix = el.getAttribute('data-suffix') || '';
+    if(reduce){ el.textContent = target + suffix; return; }
+    var dur = 1800, start = null;
+    function ease(t){ return 1 - Math.pow(1 - t, 3); } // easeOutCubic
+    function step(ts){
+      if(!start) start = ts;
+      var p = Math.min((ts - start)/dur, 1);
+      el.textContent = Math.round(ease(p) * target) + suffix;
+      if(p < 1) requestAnimationFrame(step);
     }
+    requestAnimationFrame(step);
+  }
+  var counters = document.querySelectorAll('.counter');
+  if('IntersectionObserver' in window){
+    var co = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){ animateCounter(en.target); co.unobserve(en.target); }
+      });
+    }, {threshold:.5});
+    counters.forEach(function(el){ co.observe(el); });
+  } else {
+    counters.forEach(animateCounter);
+  }
+
+  /* ——— Barras de técnicas ——— */
+  var bars = document.querySelectorAll('.tech-bar i');
+  if('IntersectionObserver' in window){
+    var bo = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          var w = en.target.getAttribute('data-width') || 0;
+          en.target.style.width = reduce ? (w + '%') : (w + '%');
+          bo.unobserve(en.target);
+        }
+      });
+    }, {threshold:.4});
+    bars.forEach(function(el){ bo.observe(el); });
+  } else {
+    bars.forEach(function(el){ el.style.width = el.getAttribute('data-width') + '%'; });
+  }
+
+  /* ——— Línea proceso ——— */
+  var line = document.getElementById('progressLine');
+  if(line){
+    if('IntersectionObserver' in window){
+      var lo = new IntersectionObserver(function(entries){
+        entries.forEach(function(en){
+          if(en.isIntersecting){ line.style.width = reduce ? '76%' : '76%'; lo.unobserve(en.target); }
+        });
+      }, {threshold:.3});
+      lo.observe(line.parentElement);
+    } else { line.style.width = '76%'; }
+  }
+
+  /* ——— Marquee de logos de clientes ———
+     ══ EDITAR: agrega aquí los logos. Cada objeto: { src: ruta, alt: nombre }.
+        Coloca las imágenes en una carpeta "logos/" junto a este index.html.
+        Mientras no haya logos reales, se muestran los nombres como texto. ══ */
+  var clientLogos = [
+    // { src: 'logos/logistica-r.png',  alt: 'Logística R' },
+    // { src: 'logos/rodamientos.png',  alt: 'Rodamientos' },
+    // { src: 'logos/trucking.png',     alt: 'Trucking' },
+    // { src: 'logos/edunovam.png',     alt: 'Instituto Edunovam' },
+    // { src: 'logos/inergia.png',      alt: 'Inergia' },
+  ];
+  // Respaldo en texto mientras no se cargan los logos (los 5 primeros son reales)
+  var clientNames = [
+    'Logística R','Rodamientos','Trucking','Instituto Edunovam','Inergia',
+    'Calzado del Bajío','Curtiduría León','AutoPartes GTO','Constructora Moderna','Grupo Industrial Norte',
+    'Restaurante La Plaza','Clínica Vida','Transportes Águila','Plásticos del Centro','Textiles Premium'
+  ];
+  function buildLogosHTML(){
+    var html = '';
+    if(clientLogos.length){
+      clientLogos.forEach(function(l){
+        html += '<img class="client-logo" src="'+l.src+'" alt="'+l.alt+'" loading="lazy">';
+      });
+    } else {
+      clientNames.forEach(function(c){ html += '<span class="client-chip">'+c+'</span>'; });
+    }
+    return html;
+  }
+  var clientsTrack = document.getElementById('clients-track-1');
+  if(clientsTrack){
+    var inner = buildLogosHTML();
+    clientsTrack.innerHTML = inner + inner; // duplicado para loop sin costuras
+  }
+
+  /* ——— Filtro de servicios ——— */
+  var filterBtns = document.querySelectorAll('.filter-btn');
+  var svcCards = document.querySelectorAll('.svc-card');
+  filterBtns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      filterBtns.forEach(function(b){ b.classList.remove('active'); b.setAttribute('aria-selected','false'); });
+      btn.classList.add('active'); btn.setAttribute('aria-selected','true');
+      var f = btn.getAttribute('data-filter');
+      svcCards.forEach(function(card){
+        var cat = card.getAttribute('data-cat');
+        var show = (f === 'all' || cat === f || cat === 'always');
+        card.classList.toggle('hidden', !show);
+      });
+    });
   });
-},{threshold:.5});
-document.querySelectorAll('[data-target]').forEach(el=>cntObs.observe(el));
 
-/* ── MARQUEE CLIENTS ── */
-const clients = [
-  {name:'Grupo Industrial León',init:'GI'},
-  {name:'Calzado Flexi',init:'CF'},
-  {name:'Distribuidora Norte',init:'DN'},
-  {name:'Muebles Selectos',init:'MS'},
-  {name:'Constructora Omega',init:'CO'},
-  {name:'Clínica Médica Gto',init:'CM'},
-  {name:'Agencia Automotriz',init:'AA'},
-  {name:'Restaurante El Mesón',init:'EM'},
-  {name:'Tech Solutions MX',init:'TS'},
-  {name:'Boutique Fashion',init:'BF'},
-  {name:'Grupo Logístico',init:'GL'},
-  {name:'Academia León',init:'AL'},
-  {name:'Ferretera Central',init:'FC'},
-  {name:'Eventos Premier',init:'EP'},
-  {name:'Inmobiliaria León',init:'IL'},
-  {name:'Farmacia del Centro',init:'FD'},
-  {name:'Talleres Cervantes',init:'TC'},
-  {name:'Cafetería Moderna',init:'CM'},
-  {name:'Papelería Escolar',init:'PE'},
-  {name:'Deportes Total',init:'DT'},
-];
-function mkCard(c){
-  return `<div class="client-card"><div class="client-init">${c.init}</div><div class="client-name">${c.name}</div></div>`;
-}
-const allCards = clients.map(mkCard).join('');
-const mq1 = document.getElementById('mq1');
-if(mq1){ mq1.innerHTML = allCards + allCards; }
-if(noMotion && mq1){ mq1.style.animationDuration='120s'; }
+  /* ——— Form submit (simulado) ——— */
+  var form = document.getElementById('quoteForm');
+  var sBtn = document.getElementById('submitBtn');
+  if(form){
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      if(!form.checkValidity()){ form.reportValidity(); return; }
+      var original = sBtn.textContent;
+      sBtn.disabled = true;
+      sBtn.textContent = 'Enviando…';
+      setTimeout(function(){
+        sBtn.textContent = '¡Mensaje enviado!';
+        sBtn.style.background = 'var(--teal)';
+        sBtn.style.color = 'var(--navy-deep)';
+        setTimeout(function(){
+          form.reset();
+          sBtn.disabled = false;
+          sBtn.textContent = original;
+          sBtn.style.background = '';
+          sBtn.style.color = '';
+        }, 3000);
+      }, 1200);
+    });
+  }
 
-/* ── FORM SUBMIT ── */
-const form = document.getElementById('contact-form');
-if(form){
-  form.addEventListener('submit',e=>{
-    e.preventDefault();
-    const btn = form.querySelector('button[type="submit"]');
-    btn.disabled = true;
-    btn.textContent = 'Enviando…';
-    setTimeout(()=>{
-      btn.textContent = '¡Mensaje enviado!';
-      btn.style.background = '#2dc4b0';
-      form.reset();
-      setTimeout(()=>{
-        btn.disabled=false;
-        btn.innerHTML='Enviar solicitud <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-        btn.style.background='';
-      },3000);
-    },1200);
-  });
-}
-
+  onScroll(); // estado inicial
 })();
 </script>
 </body>
